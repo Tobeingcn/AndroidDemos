@@ -1,5 +1,7 @@
 
-package com.tobeing.test;
+package com.tobeing.test.ui;
+
+import com.tobeing.test.R;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -10,14 +12,14 @@ import android.view.View.OnClickListener;
 import java.io.File;
 import java.io.IOException;
 
-public class MainActivity extends Activity {
+public class ScanActivity extends Activity {
     
     private static final String TAG="ScardTest";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_scan);
         Log.d(TAG, "file,dataDir="+getApplicationInfo().dataDir);
         findViewById(R.id.btnLog).setOnClickListener(new OnClickListener() {
             
