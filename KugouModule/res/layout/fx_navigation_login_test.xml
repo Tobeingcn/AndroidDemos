@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <EditText 
+        android:id="@+id/fx_user_name_edit"
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" 
+    	android:hint="必须是int数字,默认测试会创建测试账号"
+    	android:inputType="number"
+        />
+    
+    <Button 
+        android:id="@+id/fx_login_btn"
+        android:layout_below="@+id/fx_user_name_edit"
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Login"
+        />
+
+</RelativeLayout>

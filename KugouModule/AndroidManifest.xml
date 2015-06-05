@@ -1,0 +1,188 @@
+<manifest
+    package="com.kugou.android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="7109"
+    android:versionName="7.1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18"/>
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <!-- <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="com.kugou.android.permission.ACCESS_KUGOU_SERVICE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_BLUETOOTH_SHARE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <!-- 定位sdk新增权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <permission
+        android:name="com.kugou.android.permission.ACCESS_KUGOU_SERVICE"
+        android:protectionLevel="signature"/>
+
+    <application
+        android:name="com.kugou.android.test.TestApplication"
+        android:allowBackup="true"
+        android:label="酷狗音乐"
+        android:theme="@style/Kugou.Theme">
+        <!-- 测试入口 -->
+        <activity
+            android:name=".test.SplashActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"
+            android:taskAffinity="android.task.kugou">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 测试主界面 -->
+        <activity
+            android:name=".test.MainActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity android:name="com.kugou.ktv.android.findfriend.StartSinaAuthActivity"/>
+
+
+        <activity
+            android:name="com.kugou.ktv.android.sendgift.MyPropertyActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="android.task.kugou"
+            android:theme="@style/Fanxing.SlideActivityTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+<!-- start公共模块相关 -->
+
+		<!-- 第三方分享：微信相关 -->
+		<activity android:name="com.kugou.android.wxapi.WXEntryActivity" android:exported="true" />
+        <receiver android:name="com.kugou.common.wxapi.AppRegister"
+            android:permission="com.tencent.mm.plugin.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.tencent.tauth.AuthActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent205141" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.alipay.sdk.app.H5PayActivity"></activity>
+
+        <activity android:name="com.unionpay.uppay.PayActivity"></activity>
+
+        <!-- 公共模块登录 -->
+        <activity
+            android:name="com.kugou.common.useraccount.app.KgUserLoginAndRegActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="android.task.kugou"
+            android:windowSoftInputMode="adjustPan"/>
+        <!-- 公共模块Service -->
+        <service
+            android:name="com.kugou.common.service.CommonService"
+            android:process="com.kugou.android.support"/>
+        <provider
+            android:name="com.kugou.common.preferences.provider.CommonSharedPreferencesProvider"
+            android:authorities="kugouCommonPreferences"
+            android:process="com.kugou.android.support" />
+        <!-- 公共模块Provider -->
+        <provider
+            android:name="com.kugou.common.database.CommonProvider"
+            android:authorities="com.kugou.provider"
+            android:process="com.kugou.android.support"/>
+        <!-- 公共模块文件下载服务 -->
+        <service
+            android:name="com.kugou.common.filemanager.service.KugouFileService"
+            android:exported="false"
+            android:permission="com.kugou.android.permission.ACCESS_KUGOU_SERVICE"
+            android:process="com.kugou.android.support">
+            <intent-filter android:priority="1000"/>
+        </service>
+<!-- end公共模块相关 -->
+
+<!-- 以下会拷贝到kugouplayer的manifest#################### -->
+
+	<!-- start前台UI进程#################### -->
+        <!-- 图片裁剪 -->
+        <activity
+            android:name="com.kugou.ktv.android.zone.utils.CropImageActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="android.task.kugou"/>
+
+        <activity
+            android:name="com.kugou.ktv.android.sendgift.MyPropertyActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="android.task.kugou"
+            android:theme="@style/FanxingSlideActivityTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+	<!-- end前台UI进程#################### -->
+
+
+	<!-- start后台进程################################ -->
+        <service
+            android:name="com.kugou.ktv.framework.service.KtvService"
+            android:exported="false"
+            android:process="com.kugou.android.support"/>
+	<!-- end后台进程################################ -->
+	
+	<!-- UMS统计配置 相关-->
+        <meta-data android:name="KTV_UMS_PRODUCT_ID" android:value="4" />
+        <meta-data android:name="KTV_UMS_PRODUCT_KEY" android:value="a4607e99eb1eb5bb8f929f45c0b236b6" />
+        <meta-data android:name="KTV_UMS_CHANNEL" android:value="0" />
+    <!-- UMS统计配置 相关 end-->
+	
+<!-- 以上会拷贝到kugouplayer的manifest#################### -->
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote">
+        </service>
+    </application>
+
+</manifest>
