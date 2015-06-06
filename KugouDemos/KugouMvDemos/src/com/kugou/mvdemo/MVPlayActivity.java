@@ -27,39 +27,41 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MVPlayActivity extends Activity implements OnClickListener{
+public class MVPlayActivity extends Activity implements OnClickListener {
 	private static final String TAG = "MVPlayActivity";
 	public static final String EXTRA_PATH = "extra_path";
-	
-	private static final int MSG_UPDATE_POSITION=012;
+
+	private static final int MSG_UPDATE_POSITION = 012;
 	private SurfaceView mSurfaceView;
 
 	private MediaPlayer mMdiaPlayer;
 
 	private boolean isAutoStart = true;
-	
+
 	private boolean isPrepared = false;
-	
-	private boolean isComplection=false;
-    /** 是否全屏 */
-    private boolean isFullscreen;
-    private long mDuration=1;
-    /** 小屏视频布局参数 */
-    private LinearLayout.LayoutParams mDefaulVideoLayoutParams;
 
-    /** 全屏视频布局参数 */
-    private LinearLayout.LayoutParams mFullScreenVideoLayoutParams;
+	private boolean isComplection = false;
+	/** 是否全屏 */
+	private boolean isFullscreen;
+	private long mDuration = 1;
+	/** 小屏视频布局参数 */
+	private LinearLayout.LayoutParams mDefaulVideoLayoutParams;
 
-    /** 视频播放区域 */
-    private View mVideoLayout = null;
-    private Button btnAllScreen;
-    private Handler handler;
+	/** 全屏视频布局参数 */
+	private LinearLayout.LayoutParams mFullScreenVideoLayoutParams;
+
+	/** 视频播放区域 */
+	private View mVideoLayout = null;
+	private Button btnAllScreen;
+	private Handler handler;
 	// All the stuff we need for playing and showing a video
 	public static SurfaceHolder mSurfaceHolder = null;
 	private String mediaPath;
 	private SeekBar sbPosition;
-	
+
 	private TextView tvPosition;
+	private boolean isShow = false;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -70,16 +72,16 @@ public class MVPlayActivity extends Activity implements OnClickListener{
 		mSurfaceView.getHolder().setType(
 				SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 		mSurfaceView.setVisibility(View.VISIBLE);
-		mVideoLayout=findViewById(R.id.layoutVideo);
-		sbPosition=(SeekBar) findViewById(R.id.sbPosition);
+		mVideoLayout = findViewById(R.id.layoutVideo);
+		sbPosition = (SeekBar) findViewById(R.id.sbPosition);
 		mMdiaPlayer = new MediaPlayer();
 		mMdiaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
 		mediaPath = getIntent().getStringExtra(EXTRA_PATH);
-		if(!TextUtils.isEmpty(mediaPath)){
+		if (!TextUtils.isEmpty(mediaPath)) {
 			setTitle(new File(mediaPath).getName());
 		}
-		btnAllScreen=(Button) findViewById(R.id.btnAllScreen);
-		tvPosition=(TextView) findViewById(R.id.tvPosition);
+		btnAllScreen = (Button) findViewById(R.id.btnAllScreen);
+		tvPosition = (TextView) findViewById(R.id.tvPosition);
 		findViewById(R.id.btnPlay).setOnClickListener(this);
 		findViewById(R.id.btnPause).setOnClickListener(this);
 		findViewById(R.id.btnReplay).setOnClickListener(this);
@@ -90,47 +92,50 @@ public class MVPlayActivity extends Activity implements OnClickListener{
 			@Override
 			public void onPrepared(MediaPlayer mp) {
 				isPrepared = true;
-				mDuration=mp.getDuration();
+				mDuration = mp.getDuration();
 				if (isAutoStart) {
 					start();
 				}
 			}
 		});
-		
+
 		mMdiaPlayer.setOnInfoListener(new OnInfoListener() {
-			
+
 			@Override
 			public boolean onInfo(MediaPlayer mp, int what, int extra) {
-				TBLog.d(TAG, "onInfo what="+what+"extra="+extra);
+				TBLog.d(TAG, "onInfo what=" + what + "extra=" + extra);
 				return false;
 			}
 		});
 		mMdiaPlayer.setOnErrorListener(new OnErrorListener() {
-			
+
 			@Override
 			public boolean onError(MediaPlayer mp, int what, int extra) {
-				TBLog.d(TAG, "onError what="+what+"extra="+extra);
-				isPrepared=false;
+				TBLog.d(TAG, "onError what=" + what + "extra=" + extra);
+				isPrepared = false;
 				return false;
 			}
 		});
 		mMdiaPlayer.setOnCompletionListener(new OnCompletionListener() {
-			
+
 			@Override
 			public void onCompletion(MediaPlayer mp) {
-				isComplection=true;
+				isComplection = true;
 			}
 		});
-		handler=new Handler(){
+		handler = new Handler() {
 			@Override
 			public void handleMessage(Message msg) {
 				super.handleMessage(msg);
 				switch (msg.what) {
 				case MSG_UPDATE_POSITION:
-					if(isPrepared&&mDuration!=0){
-						sbPosition.setProgress((int) (mMdiaPlayer.getCurrentPosition()*100/mDuration));
-						tvPosition.setText(String.format("%d:%d/%d:%d", mMdiaPlayer.getCurrentPosition()/1000/60,
-								mMdiaPlayer.getCurrentPosition()/1000%60,mDuration/1000/60,mDuration/1000%60));
+					if (isPrepared && mDuration != 0&&isShow) {
+						sbPosition.setProgress((int) (mMdiaPlayer
+								.getCurrentPosition() * 100 / mDuration));
+						tvPosition.setText(String.format("%d:%d/%d:%d",
+								mMdiaPlayer.getCurrentPosition() / 1000 / 60,
+								mMdiaPlayer.getCurrentPosition() / 1000 % 60,
+								mDuration / 1000 / 60, mDuration / 1000 % 60));
 					}
 					sendEmptyMessageDelayed(MSG_UPDATE_POSITION, 1000);
 					break;
@@ -140,73 +145,78 @@ public class MVPlayActivity extends Activity implements OnClickListener{
 			}
 		};
 		sbPosition.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
-			
+
 			@Override
 			public void onStopTrackingTouch(SeekBar seekBar) {
 				TBLog.d(TAG, "onStopTrackingTouch:");
-				if(isPrepared){
-					mMdiaPlayer.seekTo(mMdiaPlayer.getDuration()*seekBar.getProgress()/100);
+				if (isPrepared) {
+					mMdiaPlayer.seekTo(mMdiaPlayer.getDuration()
+							* seekBar.getProgress() / 100);
 				}
-				
+
 			}
-			
+
 			@Override
 			public void onStartTrackingTouch(SeekBar seekBar) {
 				TBLog.d(TAG, "onStartTrackingTouch:");
 			}
-			
+
 			@Override
 			public void onProgressChanged(SeekBar seekBar, int progress,
 					boolean fromUser) {
-				TBLog.d(TAG, "onProgressChanged:"+progress);
-				
+
 			}
 		});
 		mSurfaceView.setOnClickListener(this);
 		handler.sendEmptyMessageDelayed(MSG_UPDATE_POSITION, 100);
 	}
-	
+
 	private void start() {
 		mMdiaPlayer.start();
 	}
-    /**
-     * 切换为全屏模式
-     */
-    private void switchFullScreenMode() {
-        try {
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-            isFullscreen=true;
-            setVideoLayoutParam();
-        } catch (Exception e) {
-            // empty
-        }
-    }
-    private void initScreenMode() {
-        isFullscreen = false;
-        setVideoLayoutParam();
-    }
-    private void setVideoLayoutParam() {
-        if (isFullscreen) {
-            if (mFullScreenVideoLayoutParams == null) {
-                mFullScreenVideoLayoutParams = new LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.MATCH_PARENT,
-                        LinearLayout.LayoutParams.MATCH_PARENT);
-            }
-            mVideoLayout.setLayoutParams(mFullScreenVideoLayoutParams);
-        } else {
-            if (mDefaulVideoLayoutParams == null) {
-                int screenWidth = getResources().getDisplayMetrics().widthPixels;
-                mDefaulVideoLayoutParams = new LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.MATCH_PARENT, screenWidth * 9 / 16);
-            }
-            mVideoLayout.setLayoutParams(mDefaulVideoLayoutParams);
-        }
-    }
+
+	/**
+	 * 切换为全屏模式
+	 */
+	private void switchFullScreenMode() {
+		try {
+			getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+			setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+			isFullscreen = true;
+			setVideoLayoutParam();
+		} catch (Exception e) {
+			// empty
+		}
+	}
+
+	private void initScreenMode() {
+		isFullscreen = false;
+		setVideoLayoutParam();
+	}
+
+	private void setVideoLayoutParam() {
+		if (isFullscreen) {
+			if (mFullScreenVideoLayoutParams == null) {
+				mFullScreenVideoLayoutParams = new LinearLayout.LayoutParams(
+						LinearLayout.LayoutParams.MATCH_PARENT,
+						LinearLayout.LayoutParams.MATCH_PARENT);
+			}
+			mVideoLayout.setLayoutParams(mFullScreenVideoLayoutParams);
+		} else {
+			if (mDefaulVideoLayoutParams == null) {
+				int screenWidth = getResources().getDisplayMetrics().widthPixels;
+				mDefaulVideoLayoutParams = new LinearLayout.LayoutParams(
+						LinearLayout.LayoutParams.MATCH_PARENT,
+						screenWidth * 9 / 16);
+			}
+			mVideoLayout.setLayoutParams(mDefaulVideoLayoutParams);
+		}
+	}
+
 	private void play() {
-		isComplection=false;
+		isComplection = false;
 		if (!TextUtils.isEmpty(mediaPath)) {
-						isAutoStart = true;
+			isAutoStart = true;
 			try {
 				mMdiaPlayer.reset();
 				mMdiaPlayer.setDataSource(mediaPath);
@@ -232,9 +242,11 @@ public class MVPlayActivity extends Activity implements OnClickListener{
 		}
 
 	}
-	private void pause(){
+
+	private void pause() {
 		mMdiaPlayer.pause();
 	}
+
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
@@ -242,6 +254,13 @@ public class MVPlayActivity extends Activity implements OnClickListener{
 			mMdiaPlayer.stop();
 		}
 		mMdiaPlayer.release();
+		handler.removeMessages(MSG_UPDATE_POSITION);
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+		isShow=true;
 	}
 
 	@Override
@@ -249,6 +268,7 @@ public class MVPlayActivity extends Activity implements OnClickListener{
 		// TODO Auto-generated method stub
 		super.onStop();
 		mMdiaPlayer.pause();
+		isShow=false;
 	}
 
 	private SurfaceHolder.Callback mSHCallback = new SurfaceHolder.Callback() {
@@ -280,34 +300,34 @@ public class MVPlayActivity extends Activity implements OnClickListener{
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.btnPlay:
-			if(isComplection){
+			if (isComplection) {
 				play();
-			}else{
+			} else {
 				start();
 			}
 			break;
-		case R.id.btnPause:{
+		case R.id.btnPause: {
 			pause();
 		}
-		break;
-		case R.id.btnReplay:{
+			break;
+		case R.id.btnReplay: {
 			play();
 		}
-		break;
-		case R.id.btnAllScreen:{
-			if(isFullscreen){
+			break;
+		case R.id.btnAllScreen: {
+			if (isFullscreen) {
 				btnAllScreen.setText(R.string.button_all_screen);
 				initScreenMode();
-			}else{
+			} else {
 				switchFullScreenMode();
 				btnAllScreen.setText(R.string.button_small_screen);
 			}
 		}
-		break;
-		case R.id.mSurfaceView:{
-			if(sbPosition.getVisibility()!=View.VISIBLE){
+			break;
+		case R.id.mSurfaceView: {
+			if (sbPosition.getVisibility() != View.VISIBLE) {
 				sbPosition.setVisibility(View.VISIBLE);
-			}else{
+			} else {
 				sbPosition.setVisibility(View.GONE);
 			}
 		}
