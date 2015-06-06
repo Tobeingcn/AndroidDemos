@@ -5,5 +5,37 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/alipaysdk.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/alipaysecsdk.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/alipayutdid.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/android-async-http-1.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/android-support-v4_r18_custom.jar" sourcepath="/androidcommon/src"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/cmmusic_lightweight_1.7.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/commons-codec.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/commons-httpclient-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/doreso.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/GoogleConversionTrackingSdk-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/gson-2.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/jzlib.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/karaoke_media.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/lcore.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/libammsdk.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/libbdcooperation.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/locSDK_3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/MMAndroid_v1.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/mta-sdk-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/open_sdk.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/pinyin4j-2.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/protobuf-java-2.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/qq-httpmime-4.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/QWeiboSDK_1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/SinaSDK.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/UpdateLib_360_2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/UPPayAssistEx.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/UPPayPluginEx.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/WandoujiaUpgradeSDK.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/weibo.sdk.android.sso.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/weibosdk.jar"/>
+	<classpathentry exported="true" kind="lib" path="/androidcommon/jars/zing_core.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
