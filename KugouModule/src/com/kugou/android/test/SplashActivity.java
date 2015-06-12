@@ -2,6 +2,7 @@ package com.kugou.android.test;
 
 import com.kugou.common.dynamic.DexFileManager;
 import com.kugou.common.dynamic.DexLoadResult;
+import com.kugou.common.player.manager.ServiceBindTool;
 import com.kugou.common.service.util.CommonServiceUtil;
 import com.kugou.common.skin.SkinFactory;
 import com.kugou.ktv.android.common.activity.KtvBaseActivity;
@@ -34,6 +35,7 @@ public class SplashActivity extends KtvBaseActivity {
         mBackgroundHandler.sendEmptyMessage(MSG_INIT_APP_STATE);
         
         initTheme();
+        ServiceBindTool.getInstance().checkServiceBound();
     }
     
     private void initTheme() {

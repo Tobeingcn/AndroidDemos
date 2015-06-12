@@ -2,6 +2,7 @@
 package com.kugou.android.test;
 
 import com.kugou.common.base.AbsFrameworkFragment;
+import com.kugou.common.base.MainFragmentKan;
 import com.kugou.ktv.android.main.activity.KtvMainFragment;
 import com.kugou.ktv.android.navigation.NavigationFragment;
 
@@ -62,11 +63,35 @@ public class MainActivity extends FrameworkActivity {
 
     @Override
     public AbsFrameworkFragment onCreateMainFragmentKan() {
-        return new TestMainFragment();
+        // 看模块
+        AbsFrameworkFragment kan = null;
+        String kanClsName = "com.kugou.fanxing.main.MainFragment";
+        if (isClassExist(kanClsName)) {
+            try {
+                kan = (AbsFrameworkFragment) Class.forName(kanClsName).newInstance();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } else {
+            kan = new MainFragmentKan();
+        }
+        return kan;
     }
 
     @Override
     public AbsFrameworkFragment onCreateMainFragmentChang() {
         return new KtvMainFragment();
     }
+    
+    private boolean isClassExist(String className) {
+        boolean exist = false;
+        try {
+            Class.forName(className);
+            exist = true;
+        } catch (Exception e) {
+            exist = false;
+        }
+        return exist;
+    }
+
 }

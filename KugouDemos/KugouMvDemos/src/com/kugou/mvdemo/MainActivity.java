@@ -26,8 +26,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity implements OnClickListener,OnItemClickListener{
 	private  String  ROOT_DIR = Environment
             .getExternalStorageDirectory().toString();
-//    public   String APP_NAME="Kugoumv";
-	public   String APP_NAME="UCDownloads";
+    public   String APP_NAME="Kugoumv";
     public   String MV_PTAH=ROOT_DIR+File.separator+APP_NAME;
 	public   String MP4_SUFFIX=".mp4";
 	private static final String KEY_MEDIA_PATH="key_media_path";
@@ -43,9 +42,9 @@ public class MainActivity extends Activity implements OnClickListener,OnItemClic
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		if(CPUUtil.isHighCPU(this)){
-			setTitle("默认音质：TYPE_NORMAL"+3);
+			setTitle("默认音质：TYPE_NORMAL：标准");
 		}else{
-			setTitle("默认音质：TYPE_LOW"+2);
+			setTitle("默认音质：TYPE_LOW：流畅");
 		}
 		etPath=(EditText) findViewById(R.id.etPath);
 		SharedPreferences sb=getSharedPreferences(getPackageName(), 0);
