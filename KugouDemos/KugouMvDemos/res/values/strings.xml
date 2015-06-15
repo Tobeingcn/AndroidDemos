@@ -9,6 +9,6 @@
     <string name="button_pause">暂停</string>
     <string name="button_replay">重播</string>
     <string name="button_all_screen">全屏</string>
-    <string name="button_small_screen">全屏</string>
+    <string name="button_small_screen">常规</string>
 
 </resources>

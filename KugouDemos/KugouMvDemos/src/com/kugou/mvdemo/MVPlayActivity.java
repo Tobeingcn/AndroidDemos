@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
+import android.content.res.Configuration;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
@@ -42,7 +43,7 @@ public class MVPlayActivity extends Activity implements OnClickListener {
 
 	private boolean isComplection = false;
 	/** 是否全屏 */
-	private boolean isFullscreen;
+	private static boolean isFullscreen;
 	private long mDuration = 1;
 	/** 小屏视频布局参数 */
 	private LinearLayout.LayoutParams mDefaulVideoLayoutParams;
@@ -86,6 +87,7 @@ public class MVPlayActivity extends Activity implements OnClickListener {
 		findViewById(R.id.btnPause).setOnClickListener(this);
 		findViewById(R.id.btnReplay).setOnClickListener(this);
 		findViewById(R.id.btnAllScreen).setOnClickListener(this);
+		isFullscreen=this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE;
 		initScreenMode();
 		mMdiaPlayer.setOnPreparedListener(new OnPreparedListener() {
 
@@ -190,9 +192,11 @@ public class MVPlayActivity extends Activity implements OnClickListener {
 	}
 
 	private void initScreenMode() {
-		isFullscreen = false;
-		setVideoLayoutParam();
-	}
+		if (isFullscreen) {
+			switchFullScreenMode();
+		} else {
+			setVideoLayoutParam();
+		}}
 
 	private void setVideoLayoutParam() {
 		if (isFullscreen) {
@@ -202,6 +206,7 @@ public class MVPlayActivity extends Activity implements OnClickListener {
 						LinearLayout.LayoutParams.MATCH_PARENT);
 			}
 			mVideoLayout.setLayoutParams(mFullScreenVideoLayoutParams);
+			btnAllScreen.setText(R.string.button_small_screen);
 		} else {
 			if (mDefaulVideoLayoutParams == null) {
 				int screenWidth = getResources().getDisplayMetrics().widthPixels;
@@ -210,6 +215,7 @@ public class MVPlayActivity extends Activity implements OnClickListener {
 						screenWidth * 9 / 16);
 			}
 			mVideoLayout.setLayoutParams(mDefaulVideoLayoutParams);
+			btnAllScreen.setText(R.string.button_all_screen);
 		}
 	}
 
@@ -249,6 +255,7 @@ public class MVPlayActivity extends Activity implements OnClickListener {
 
 	@Override
 	protected void onDestroy() {
+		isFullscreen=false;
 		super.onDestroy();
 		if (mMdiaPlayer.isPlaying()) {
 			mMdiaPlayer.stop();
@@ -262,7 +269,6 @@ public class MVPlayActivity extends Activity implements OnClickListener {
 		super.onResume();
 		isShow=true;
 	}
-
 	@Override
 	protected void onStop() {
 		// TODO Auto-generated method stub
@@ -316,11 +322,12 @@ public class MVPlayActivity extends Activity implements OnClickListener {
 			break;
 		case R.id.btnAllScreen: {
 			if (isFullscreen) {
-				btnAllScreen.setText(R.string.button_all_screen);
+				getWindow().addFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
+				setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+				isFullscreen = false;
 				initScreenMode();
 			} else {
 				switchFullScreenMode();
-				btnAllScreen.setText(R.string.button_small_screen);
 			}
 		}
 			break;
