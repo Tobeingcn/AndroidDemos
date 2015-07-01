@@ -77,7 +77,6 @@
             android:alwaysRetainTaskState="true"
             android:screenOrientation="portrait"
             android:taskAffinity="android.task.kugou"
-            android:theme="@style/Fanxing.SlideActivityTheme"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity
             android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
@@ -108,7 +107,6 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity
             android:name="com.tencent.tauth.AuthActivity"
-            android:label="@string/app_name"
             android:launchMode="singleTask"
             android:noHistory="true" >
             <intent-filter>
