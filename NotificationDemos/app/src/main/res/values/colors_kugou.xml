@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="translucent_background">#00000000</color>
+    <color name="list_background_color">#F9F9F9</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="splash_background_color">#005694</color>
+    <color name="player_track_color">#FFFFFFFF</color>
+    <color name="player_artist_color">#FFFFFFFF</color>
+    <color name="lyr_front_color">#FFFFE65A</color>
+    <color name="lyr_background_color">#FF999999</color>
+    <color name="mini_lyr_background_color">#FF85efaf</color>
+    <color name="mini_lyr_front_color">#FF00D8FF</color>
+    <color name="lyr_middle_line_color">#FF999999</color>
+    <color name="time_text_color">#FFFFFFFF</color>
+    <color name="listDivider">#FFDADADA</color>
+    <color name="leftSizeListDivider">#FF5E5E5E</color>
+    <color name="listDivider_1">#FF666666</color>
+    <color name="listDivider_2">#FF444444</color>
+    <color name="libray_title_color">#61020d</color>
+    <color name="primary_text_light_disable_only">#545454</color>
+    <color name="tab_or_bar_text_color">#FF000000</color>
+    <color name="search_recommend_title_color">#FF2E3130</color>
+    <color name="cacheColorHint">#00000000</color>
+    <color name="integral_text_color">#464627</color>
+    <color name="integral_rank_color">#960014</color>
+    <color name="playback_full_screen_cover_layer_color">#50000000</color>
+    <color name="playing_bar_bg_color">#edffffff</color>
+    <color name="playing_bar_primary_text_color">#FF424242</color>
+    <color name="playing_bar_secondary_text_color">#FF7D7D7D</color>
+    <color name="dialog_song_info_siger_bg">#f5f5f5</color>
+    <color name="dialog_song_info_siger_bg_selector">#e7e7e7</color>
+
+    <drawable name="kg_fb_list_item_bg_press">#F5F5F5</drawable>
+    <drawable name="kg_fb_list_item_bg_normal">#FFFFFF</drawable>
+    <!--
+    <color name="list_item_text_color">#FF000000</color>
+    <color name="list_item_time_text_color">#FFA5A5A5</color>
+
+
+
+    -->
+    <color name="theme_transparent">#9000</color>
+    <color name="pop_menu_text">#000000</color>
+    <color name="pop_menu_bar_text">#000000</color>
+    <color name="pop_menu_bar_clicked_text">#000000</color>
+    <color name="dialog_title">#ff4A4A4A</color>
+    <color name="sleep_mode_item_color">#000000</color>
+    <color name="widget_lyric_text_color">#FFFFFF</color>
+    <color name="grid_item_frame_color">#D7D7D7</color>
+    <color name="primary_default_text_color">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="register_to_changer">#FF5AC041</color>
+    <color name="login_forgot_pwd_press_color">#FF5A5A5A</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="black">#FF000000</color>
+    <color name="light_black">#FF434343</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="trans_white">#90FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="scanning_cancle_normal">#6C6C6C</color>
+    <color name="unable_text">#C1C1C1</color>
+    <color name="brown">#FF666666</color>
+    <color name="gray">#FF878787</color>
+    <color name="music_hunter_tips">#999999</color>
+    <color name="music_hunter_tips2">#999999</color>
+    <color name="forget_password_color">#FF7F7F81</color>
+    <color name="line_color">#FFDADDDF</color>
+    <color name="line_gray_color">#FFEBEBEB</color>
+    <!-- listview按下颜色 -->
+    <color name="listview_bg_pressed_color">#FFE4E4E4</color>
+    <color name="bg_default_color">#edFFFFFF</color>
+    <color name="bg_light_default_color">#edFFFFFF</color>
+    <color name="bg_light_default_color_1">#edFFFFFF</color>
+    <color name="bg_pressed_color">#FF5391C6</color>
+    <color name="bg_pressed_color2">#38000000</color>
+    <color name="bg_songinfo_singer">#FFE8E8E8</color>
+    <color name="key_dark">#dde0e5</color>
+    <color name="list_item_default_color">#FFFFFFFF</color>
+    <color name="list_item_press_color">#FFe4e4e4</color>
+    <color name="no_skin_list_item_press_color">#FF72AAD6</color>
+    <color name="bg_bar_item_pressed_color">#80000000</color>
+    <color name="list_info_color">#FFC1C1C1</color>
+    <!-- <color name="scrollbar_handle_color">#FF76BBFF</color> -->
+    <color name="dialog_title_bar_color">#33FFFFFF</color>
+
+    <!-- 字体颜色 -->
+    <color name="playlist_edit_color">#FF4D4D4D</color>
+    <color name="download_group_color">#FF464546</color>
+    <color name="download_speed_color">#FF7E7E7E</color>
+    <color name="download_progress__color">#FF56BEF6</color>
+    <color name="login_account_color">#FFA7A7A7</color>
+    <color name="register_tips_color">#FF6D6D6E</color>
+    <color name="common_headr_operation_bar_color">#FF9B9B9B</color>
+    <color name="playlist_foot_color">#FF969696</color>
+    <color name="common_headr_operation_line_color">#FFC5CDD3</color>
+    <!-- 不进行换肤的字体颜色 -->
+    <color name="no_skin_max_text_color">#FF000000</color>
+    <color name="no_skin_middle_text_color">#FF666666</color>
+    <color name="no_skin_min_text_color">#FF999999</color>
+    <color name="no_skin_color_bar_text_color">#FFFFFFFF</color>
+    <color name="unclickable_color">#FFb9b9b9</color>
+    <!-- 第一套字体颜色 -->
+    <color name="theme_text_color">#FF000000</color>
+    <color name="theme_text_color_no_black">#FF000000</color>
+    <color name="max_text_color">#FF000000</color>
+    <color name="middle_text_color">#FF666666</color>
+    <color name="min_text_color">#FF999999</color>
+    <color name="register_hint_text_color">#FFB9B9B9</color>
+    <color name="register_text_color">#FF3C3C3C</color>
+    <color name="color_bar_text_color">#FF000000</color>
+    <color name="skin_tab_radiobutton_search_color">#FF262928</color>
+    <color name="skin_tab_radiobutton_bg_color">#FF262928</color>
+    <color name="skin_tab_radiobutton_lbs_color">#FFFFFFFF</color>
+    <!-- 网络单曲播放控制bar -->
+    <color name="common_netsong_list_header_bar_bg">#FFFFFFFF</color>
+    <color name="common_netsong_list_header_bg">#0b222222</color>
+
+    <!-- 第二套字体颜色(深色) -->
+    <color name="max_text_color_1">#FFFFFFFF</color>
+    <color name="middle_text_color_1">#FFDDDDDD</color>
+    <color name="min_text_color_1">#FFBBBBBB</color>
+    <color name="color_bar_text_color_1">#FFFFFFFF</color>
+    <color name="local_search_highlight">#e85e0b</color>
+    <!-- 网络单曲播放控制bar -->
+    <color name="common_netsong_list_header_bar_bg_1">#cc000000</color>
+    <color name="common_netsong_list_header_bg_1">#4c000000</color>
+
+    <!-- 主体颜色 -->
+    <color name="head_warn_totalsize_color">#FF5DAF2F</color>
+    <color name="head_warn_text_color">#FF626262</color>
+    <color name="theme_grid_color_0_default">#FF86B9E4</color>
+    <color name="theme_grid_color_0_pressed">#FF3D91D9</color>
+    <color name="theme_grid_color_1_default">#FFFC99B1</color>
+    <color name="theme_grid_color_1_pressed">#FFE25E7E</color>
+    <color name="theme_class_color_0_default">#00000000</color>
+    <color name="theme_class_color_0_pressed">#00000000</color>
+    <color name="theme_class_color_1_default">#00000000</color>
+    <color name="theme_class_color_1_pressed">#00000000</color>
+    <color name="theme_class_color_2_default">#FFE88230</color>
+    <color name="theme_class_color_2_pressed">#FFE37822</color>
+    <!--
+    249EF6 5FCA41  F0666C  5B8DE7  F9A42A  EC55CB 41B9B7 
+    <color name="theme_color_0_default">#FF249EF6</color>
+    <color name="theme_color_0_pressed">#99249EF6</color>
+    <color name="theme_color_1_default">#FF5FCA41</color>
+    <color name="theme_color_1_pressed">#995FCA41</color>
+    <color name="theme_color_2_default">#FFF0666C</color>
+    <color name="theme_color_2_pressed">#99F0666C</color>
+    <color name="theme_color_3_default">#FF5B8DE7</color>
+    <color name="theme_color_3_pressed">#995B8DE7</color>
+    <color name="theme_color_4_default">#FFF9A42A</color>
+    <color name="theme_color_4_pressed">#99F9A42A</color>
+    <color name="theme_color_5_default">#FFEC55CB</color>
+    <color name="theme_color_5_pressed">#99EC55CB</color>
+    <color name="theme_color_6_default">#FF474747</color>
+    <color name="theme_color_6_pressed">#99474747</color>
+
+
+
+    -->
+    <!--  -->
+    <color name="theme_color_0_btn_default">#75b2e6</color>
+    <color name="theme_color_1_btn_default">#f294ac</color>
+    <color name="theme_color_2_btn_default">#666666</color>
+    <color name="theme_color_all_btn_pressed">#64666666</color>
+    <!-- 分类标签背景色 -->
+    <color name="class_tag_background_color1">#99DEF1FF</color>
+    <color name="class_tag_background_color2">#99FDCCBD</color>
+    <color name="class_tag_background_color3">#99FEF6CF</color>
+    <color name="class_tag_background_color4">#99E6F1CF</color>
+    <!-- 分类标签背景色 -->
+    <color name="class_tag_background_color1_pressed">#FFDEF1FF</color>
+    <color name="class_tag_background_color2_pressed">#FFFDCCBD</color>
+    <color name="class_tag_background_color3_pressed">#FFFEF6CF</color>
+    <color name="class_tag_background_color4_pressed">#FFE6F1CF</color>
+    <!-- 分类标签相对应背景框色 -->
+    <color name="class_tag_background_border_color1">#FFBCDFFA</color>
+    <color name="class_tag_background_border_color2">#FFDFB5AB</color>
+    <color name="class_tag_background_border_color3">#FFD9D1A6</color>
+    <color name="class_tag_background_border_color4">#FFBEC9A5</color>
+    <!-- 分类栏 -->
+    <color name="class_tag_divider_text_hint_color">#FF1E1E1E</color>
+    <color name="class_tag_divider_text_hint_background_color">#FFE1E1E1</color>
+    <color name="process_bar_divider_color">#FF858584</color>
+
+    <!-- 歌词样式selector背景色 -->
+    <color name="lyric_style_size_stroke_default_color">#FFCCCCCC</color>
+    <color name="lyric_style_size_stroke_pressed_color">#FF72BEFF</color>
+    <color name="lyric_style_size_background_pressed_color">#FFD2EAFF</color>
+
+    <!-- mini桌面歌词前景色 -->
+    <color name="minilyric_select_front_color1">#FF00D8FF</color>
+    <color name="minilyric_select_front_color2">#FFD155FF</color>
+    <color name="minilyric_select_front_color3">#FFFFE951</color>
+    <color name="minilyric_select_front_color4">#FFF85D48</color>
+    <color name="minilyric_select_front_color5">#FF43EB5F</color>
+
+    <!-- 全屏歌词背景色 -->
+    <color name="lyric_select_front_color1">#FFfada83</color>
+    <color name="lyric_select_front_color2">#FFe17db3</color>
+    <color name="lyric_select_front_color3">#FF9dc400</color>
+    <color name="lyric_select_front_color4">#FF5db1f0</color>
+    <color name="lyric_select_front_color5">#FF1fac51</color>
+    <color name="lyric_select_front_color6">#FF8a00e2</color>
+    <color name="lyric_select_front_color7">#FFf8ac25</color>
+    <color name="lyric_select_front_color8">#FFff6565</color>
+
+    <!--
+	<color name="minilyric_select_front_color1">#FFc33ec8</color>
+	<color name="minilyric_select_front_color2">#FFfe9d5d</color>
+	<color name="minilyric_select_front_color3">#FFf55e90</color>
+	<color name="minilyric_select_front_color4">#FFf86565</color>
+	<color name="minilyric_select_front_color5">#FFc6fc70</color>
+
+
+
+    -->
+
+    <color name="player_fragment_menu_bg">#F2F2F2</color>
+    <color name="main_second_tab_color">#FF333333</color>
+    <!-- 编辑框hint文字 -->
+    <color name="main_edittext_tint_color">#FF919494</color>
+    <color name="search_play_btn_default_color">#992270A4</color>
+    <color name="search_play_btn_pressed_color">#FF2270A4</color>
+
+    <!-- 自定义主题颜色窗口背景色 -->
+    <color name="custom_color_win_bg">#99000000</color>
+    <color name="widget4_color_lrctext_bg">#77ffffff</color>
+    <color name="minilyric_kglyricview_bg_color">#00000000</color>
+    <color name="minilyric_control_bg_color">#002F2F2F</color>
+    <color name="minilyric_setting_bg_color">#00000000</color>
+    <color name="minilyric_divider_color">#2fffffff</color>
+    <color name="mainbar_text_color_default">#85A4B8</color>
+    <color name="mainbar_text_color_pressed">#7AA9C8</color>
+
+    <!-- 背景透明层 -->
+    <color name="bg_transparenc">#80000000</color>
+    <color name="bg_lyr_transparenc">#fff4f4f4</color>
+    <color name="second_tab_bg">#ff72aad6</color>
+
+    <!-- dlna -->
+    <color name="dlna_white">#ffffff</color>
+    <color name="dlna_transparent">#00000000</color>
+    <color name="dlna_gold">#b89766</color>
+    <color name="newplaylist_color">#000000</color>
+    <color name="local_list_item_color">#000000</color>
+    <color name="local_list_songnumber_color">#000000</color>
+    <color name="bg_common_title_bar_color">#72aad6</color>
+    <color name="bg_edit_mode_btn_default_color">#FF8D8D8D</color>
+    <color name="bg_edit_mode_btn_pressed_color">#FF747474</color>
+    <color name="bg_color">#FFF4F4F4</color>
+
+    <!-- bluetooth -->
+    <color name="bg_bluetooth_secondarytitle_bar_color">#e1e1e1</color>
+    <color name="bg_create_playlist_item_color">#E1E1E1</color>
+    <color name="search_result_btn_menu_background_color_pressed">#ffa6aaaf</color>
+    <color name="search_result_title_background_color_pressed">#ffe3e3e3</color>
+    <color name="search_result_title_color">#ff5391c6</color>
+    <color name="channel_class_name_default">#FF333333</color>
+    <color name="channel_class_name_pressed">#ff2a7fc8</color>
+    <color name="net_main_all_channel_radio_background_color_pressed">#ffbcd4e8</color>
+    <color name="net_main_all_channel_radio_background_color_default">#ffeaeaea</color>
+    <color name="net_main_channel_class_list_background_color_default">#ffd5d5d5</color>
+    <color name="net_main_channel_class_list_background_color_pressed">#ffaaaaaa</color>
+    <color name="channel_list_header_title_color">#ffd29427</color>
+    <color name="channel_list_header_title_divider_color">#ffedaf43</color>
+    <color name="channel_item_ibtn_next_divider_color">#ffc6c6c6</color>
+    <color name="bg_rightmenu_color">#C0000000</color>
+    <color name="bg_rightmenu_color_1">#33FFFFFF</color>
+    <color name="group_item_default">#ffffffff</color>
+    <color name="list_common_bar_header_divider">#dbdbdb</color>
+    <color name="list_divider_color">#d2d2d2</color>
+    <color name="skin_list_divider_color">#d2d2d2</color>
+    <color name="skin_color_divider_color">#d2d2d2</color>
+    <color name="skin_color_corner_divider_color">#d2d2d2</color>
+    <color name="skin_divider_color_with_transparent">#d2d2d2</color>
+    <!-- 我的音乐header点击颜色 -->
+    <color name="header_item_default">#a03d91d9</color>
+    <color name="header_item_pressed">#ff3d91d9</color>
+    <color name="playing_indicator_color">#FF6FD338</color>
+    <color name="edit_mode_bg_color">#B3000000</color>
+    <color name="common_title_divider_color">#80ffffff</color>
+    <color name="bg_navigation_exit">#4C000000</color>
+    <color name="group_item_pressed">#ffe0e0e0</color>
+    <color name="local_music_menu_title_color">#ffffff</color>
+    <color name="navigation_divier">#D8797979</color>
+
+    <!-- 新的播放页面头像 -->
+    <color name="playback_album_title_division_color">#9DA0A1</color>
+    <color name="playback_album_background">#F4F4F4</color>
+    <color name="playback_album_tite_font_color">#333333</color>
+    <color name="offlinemodebtn_color">#515255</color>
+
+    <!-- 导航 -->
+    <color name="navigation_search_hint_color">#848484</color>
+    <color name="navigation_primary_text_color">#383838</color>
+    <color name="navigation_secondary_text_color">#878787</color>
+    <color name="tx_navigation_group_indicator_color">#C1C1C1</color>
+    <color name="tx_navigation_username_color">#ffffff</color>
+    <color name="navigation_colorlow_mask_layer_color">#b2000000</color>
+    <color name="navigation_blue_bg_mask_layer_color">#7f000000</color>
+    <color name="navigation_mask_layer_color">#80000000</color>
+    <color name="navigation_back_oldver_color">#FF1F1F1F</color>
+
+    <!-- 新播放页底部bar条 -->
+    <color name="playback_bottom_bar_bg">#8c000000</color>
+    <color name="tx_navigation_item_indicator_color">#C3B80A</color>
+
+    <!-- 设置 -->
+    <color name="setting_activity_bg_color">#FFFFFF</color>
+    <color name="setting_activity_groupitem_color">#cccccc</color>
+    <color name="setting_activity_childitem_title_color">#000000</color>
+    <color name="setting_activity_childitem_summary_color">#00000000</color>
+    <color name="setting_activity_childitem_bg_color">#ffffff</color>
+    <color name="setting_activity_childitem_bg_color_pressed">#9964B1FA</color>
+    <color name="setting_activity_divider_color">#19000000</color>
+
+    <!-- 更多 -->
+    <color name="more_fagment_item_text_color">#444343</color>
+    <color name="more_fagment_item_divider_color">#ced6d6</color>
+    <color name="more_fragment_header_view_setting_title_bg_color">#ced6d6</color>
+    <color name="more_fragment_header_view_setting_title_text_color">#464646</color>
+
+    <!-- 定时音乐 -->
+    <color name="alarm_repeat_color">#B5B5B5</color>
+    <color name="alarm_time_color">#424242</color>
+    <color name="alarm_playback_color">#151515</color>
+
+    <!-- 发现 -->
+    <color name="discovery_grid_item_background_color">#CDCDCD</color>
+
+    <!-- 歌手 -->
+    <color name="singer_type_tab_selected_color">#FF249EF6</color>
+    <color name="singer_type_tab_bg_color">#FF404040</color>
+    <color name="singer_type_tab_divider_color">#FF7E7E7E</color>
+    <color name="singer_type_listview_divider_color">#19000000</color>
+    <color name="singer_type_artist_list_item_text_color">#FF303030</color>
+    <color name="singer_type_artist_list_item_info_color">#FF8B8B8B</color>
+    <color name="singer_type_select_diverder_color">#FF249EF6</color>
+    <color name="singer_type_sort_text_color">#FF303030</color>
+    <color name="singer_gridview_name_text_color">#FF303031</color>
+    <color name="singer_type_sort_letter_color">#FF333333</color>
+    <color name="singer_detail_tab_bg">#CC000000</color>
+    <color name="singer_gridview_title_color">#FF424242</color>
+    <color name="singer_gridview_name_color">#FF7D7D7D</color>
+    <color name="singer_gridview_playcount_color">#888888</color>
+    <color name="singer_subscribe_text_color">#FF363938</color>
+    <color name="singer_follow_title_left_color">#FF272727</color>
+    <color name="singer_follow_title_right_color">#FF454545</color>
+    <color name="singer_follow_title_layout_gb">#FFFDFEFF</color>
+    <color name="singer_follow_title_divider_gb">#FFDCDCDD</color>
+    <color name="singer_detail_dialog_detail_color">#FF4F4F4F</color>
+    <color name="singer_detail_dialog_name_bg_color">#4C000000</color>
+    <color name="singer_detail_desc_text_color">#848484</color>
+    <color name="singer_detail_star_interview_title_color">#333333</color>
+    <color name="singer_detail_dialog_intro_color">#333333</color>
+    <color name="singer_detail_songs_sort_type_color">#333333</color>
+    <!-- end of 歌手 -->
+
+
+    <!-- 通用标题栏 -->
+    <color name="common_title_bar_pressed_color">#38000000</color>
+    <color name="common_fragment_background_color">#ffffff</color>
+
+    <!-- 菜单样式弹框 -->
+    <color name="menu_dialog_text_color">#FF333333</color>
+
+    <!-- 主界面播放队列 -->
+    <color name="main_player_queue_primary_text_color">#333333</color>
+    <color name="main_player_queue_secondary_text_color">#848484</color>
+    <!-- 听歌识曲 -->
+    <color name="music_hunter_record_secord_text_color">#333333</color>
+    <color name="music_hunter_record_feedback_text_color1">#2ca2f9</color>
+    <color name="music_hunter_record_feedback_text_color2">#666666</color>
+    <color name="music_hunter_record_background_color">#f5f5f5</color>
+    <color name="music_hunter_min_text_color">#848484</color>
+
+    <!-- 播放页 -->
+    <color name="player_queue_primary_text_color">#bdbdbd</color>
+    <color name="player_queue_secondary_text_color">#777777</color>
+    <color name="player_queue_secondary_text_color_selected">#848484</color>
+    <color name="player_queue_Third_text_color">#FFEDEDED</color>
+    <color name="player_primary_text_color">#FFFFFFFF</color>
+    <color name="player_secondary_text_color">#FFFFFFFF</color>
+    <color name="player_seeker_bg_color">#B3000000</color>
+    <color name="player_playback_bg_color">#CCFFFFFF</color>
+    <color name="player_menu_bg_color">#FF2E2E2E</color>
+    <color name="unsubscribe_dialog_title_color">#FF323232</color>
+    <color name="unsubscribe_dialog_action_color">#FF333333</color>
+    <color name="unsubscribe_dialog_divider_color">#FFABABAB</color>
+    <color name="player_menu_gray">#66FFFFFF</color>
+    <!-- 用户信息界面 -->
+    <color name="user_info_bg_color">#f5f5f5</color>
+    <color name="user_info_common_item_text_color">#333333</color>
+    <color name="user_info_vip_item_text_color">#5489f5</color>
+
+    <!-- 下拉列表颜色值 -->
+    <color name="review">#767676</color>
+    <color name="reviewtime">#989898</color>
+
+    <!-- LBS -->
+    <color name="lbs_user_name_text">#FF323232</color>
+    <color name="lbs_user_distance_update_text">#FF878787</color>
+    <color name="lbs_user_fav_count_sign_text">#FF5A5A5A</color>
+    <color name="search_title_text_color">#FF2F2F30</color>
+    <color name="common_bg_color">#F1F6F8</color>
+
+    <!-- 音乐空间 -->
+    <color name="music_zone_head_text_color">#ffffff</color>
+    <color name="user_info_tag_edit_group_item_bg_color">#e2e2e2</color>
+    <color name="playlist_comment_timer_color">#FF959595</color>
+    <color name="playlist_blue_color">#FF1272CD</color>
+    <color name="playlist_detail_username_color">#FFFEF800</color>
+    <color name="playlist_update_lab_color">#FFFFF2AE</color>
+    <color name="my_comment_driver_line_color">#FFE7E7E7</color>
+    <color name="playlust_edit_tags_tips_color">#FF858585</color>
+    <color name="playlust_edit_tags_selected_color">#FFF1BD40</color>
+    <color name="playlust_edit_tags_default_color">#FF919191</color>
+    <color name="playlust_edit_tags_title_line_color">#FFDDDDDD</color>
+    <color name="back_up_loading_color">#FF626262</color>
+    <color name="backup_db_loading_color">#333333</color>
+
+    <!-- 猜你喜欢 -->
+    <color name="guess_favourite_no_enough_song_tips_text_color">#FF393C3E</color>
+    <color name="guess_you_like_tip_dark">#333333</color>
+    <color name="guess_you_like_tip_grey">#848484</color>
+
+    <!-- 播放bar引导闪烁 -->
+    <color name="playing_bar_lighting_color">#f9ff9e</color>
+
+    <!-- DLNA -->
+    <color name="dlna_setting_remark_text_color">#FF686868</color>
+    <color name="dlna_setting_open_text">#FF424242</color>
+    <color name="dlna_dialog_item_noconfig_gray">#FF5D5D5D</color>
+    <!-- 定时闹钟 -->
+    <color name="music_alarm_edit_wheel_common_text_color">#b7b7b7</color>
+    <color name="music_alarm_edit_wheel_selected_text_color">#3b3b3b</color>
+    <color name="music_alarm_edit_wheel_vertical_divider_color">#b7b7b7</color>
+    <color name="music_alarm_edit_label_text_color">#696969</color>
+
+    <!-- 联通包月 -->
+    <color name="unicom_function_color">#323232</color>
+    <color name="unicom_price_color">#F5630B</color>
+    <color name="unicom_explain_color">#666666</color>
+    <color name="unicom_link_color">#0F84F0</color>
+    <color name="unicom_warning_color">#4C402D</color>
+    <color name="unicom_warning_background">#FFFAB1</color>
+    <color name="title_save_money_text">#333333</color>
+    <color name="title_save_money_context">#E04D00</color>
+    <color name="unicom_save_money_color">#EEEEEE</color>
+    <color name="unicom_tip_background">#e8e8e8</color>
+    <color name="unicom_introduce">#727272</color>
+
+    <!-- mv -->
+    <color name="mv_vol_seek_bar_color">#00AEEF</color>
+    <color name="mv_def_divide_line_color">#7D7D7D</color>
+    <color name="mv_def_pop_text_color">#bdbdbd</color>
+    <color name="mv_list_pop_bg_color">#80000000</color>
+    <color name="mv_list_pop_sign">#6bcc37</color>
+    <color name="mv_list_pop_plaing_text_color">#259ef7</color>
+    <color name="mv_list_pop_text_title_color">#FFFFFF</color>
+    <color name="mv_list_pop_text_singer_color">#AFAFAF</color>
+    <color name="mv_list_item_selected_color">#22C6C6C6</color>
+    <color name="mv_replay_btn_bg_color">#CD000000</color>
+    <color name="kg_mv_list_header_bg">#F8F8F8</color>
+    <color name="kg_mv_contorl_bar_bg">#9A000000</color>
+    <color name="kg_mv_category_devider_bg">#e5e5e5</color>
+    <color name="kg_mv_category_tv_color_def">#333333</color>
+
+    <!-- 搜索 -->
+    <color name="search_third_bg">#8EC363</color>
+    <color name="search_correct_text_color">#2ca2f9</color>
+    <color name="search_correct__text_update_color">#333333</color>
+    <color name="search_correct__text_red_color">#ff0000</color>
+
+    <!-- VIP充值 -->
+    <color name="vip_payment_driver_color">#dadddf</color>
+    <color name="vip_payment_input_text_color">#ff7d15</color>
+
+    <!--
+    移动彩铃v2 
+    <color name="ringtone_billboard_item_title_color">#2b2b2b</color>
+    <color name="ringtone_billboard_item_intro_color">#666666</color>
+    <color name="ringtone_billboard_item_border_color">#d4d4d4</color>
+    <color name="ringtone_billboard_item_bg_color">#ffffff</color>
+    <color name="ringtone_billboard_spec_intro_color">#454545</color>
+
+
+
+    -->
+    <color name="toast_background">#454545</color>
+    <color name="btn_lyric_use_color_status_using">#aaaaaa</color>
+    <color name="local_music_edittext_cancle_btn_default">#929292</color>
+    <color name="local_music_edittext_cancle_btn_press">#7E7E7E</color>
+    <!-- 7.0 -->
+    <color name="kg_font_black">#FF333333</color>
+    <color name="kg_eq_custom_bg">#c4c4c4</color>
+    <color name="kg_eq_custom_seekbar_bg">#d5d8dd</color>
+    <color name="kg_eq_custom_seekbar_sp">#36aaff</color>
+    <color name="kg_player_download_text_color">#787878</color>
+
+    <!-- 7.0 乐库 -->
+    <color name="kg_discovery_font_black">#FF333333</color>
+    <color name="kg_discovery_font_gray">#FF848484</color>
+    <color name="kg_discovery_font_blue">#FF249ef6</color>
+    <color name="kg_discovery_special_category_bg">#FFF4F4F4</color>
+    <color name="kg_discovery_singer_bg">#ffffff</color>
+    <color name="kg_discovery_special_category_item_selected_bg">#ff259ff5</color>
+    <color name="kg_discovery_singer_group_divider">#f5f5f5</color>
+    <color name="kg_discovery_special_category_gray">#ff848484</color>
+    <color name="kg_discovery_rec_sub_img_press">#19FFFFFF</color>
+    <color name="kg_discovery_rec_bg_color">#F5F5F5</color>
+    <color name="kg_discovery_rec_title_text_color">#333333</color>
+    <color name="kg_discovery_rec_intro_text_color">#858585</color>
+    <color name="kg_discovery_time_update_frequency">#B3FFFFFF</color>
+    <color name="kg_discovery_singer_search_edit_border">#d6d6d6</color>
+    <color name="kg_discovery_singer_item_divider">#dddddd</color>
+
+    <!-- 7.0 listen 侧边栏 -->
+    <color name="kg_slide_exit_btn_default">#FF5c5c5c</color>
+    <color name="kg_slide_exit_btn_press">#FF3c3c3c</color>
+    <color name="kg_slide_menu_item_press">#19FFFFFF</color>
+    <color name="kg_slide_menu_item_subtext_bg_color">#33FFFFFF</color>
+
+    <!-- 7.0登录 -->
+    <color name="kg_login_text_name">#848484</color>
+    <color name="kg_login_text_toast">#5d4833</color>
+    <color name="kg_login_text_toast_bg">#f4efcf</color>
+    <color name="kg_login_text_openlat">#333333</color>
+    <color name="kg_login_text_button">#ffffff</color>
+    <color name="kg_login_edt_line">#cecece</color>
+    <!-- 7.0 user info -->
+    <color name="kg_bg_user_info_logout_bg">#fc7675</color>
+    <color name="kg_bg_user_info_logout_bg_selected">#d66464</color>
+    <color name="kg_bg_user_info_text">#ffffff</color>
+    <color name="kg_bg_user_info_pressed">#19000000</color>
+    <color name="kg_tags_gap">#55919191</color>
+    <color name="color_disable">#C2C2C2</color>
+
+    <!-- 7.0 vip charge picker -->
+    <color name="kg_vip_month_picker_current_text_color">#333333</color>
+    <color name="kg_vip_month_picker_offset_1_text_color">#848484</color>
+    <color name="kg_vip_month_picker_offset_2_text_color">#bababa</color>
+
+    <!-- 7.0 alll ayout -->
+    <color name="kg_area_divider_color">#e7e7e7</color>
+    <color name="kg_local_music_item_title_color">#333333</color>
+    <color name="kg_local_music_item_extra_color">#848484</color>
+    <color name="kg_vip_recharge_item__divider_color">#19000000</color>
+    <color name="player_queue_list_item_selected">#15ffffff</color>
+    <color name="kg_play_list_login_bg">#66000000</color>
+    <color name="share_lyric_portrait_foreground_color">#11ffffff</color>
+    <color name="share_lyric_background_color">#99000000</color>
+    <color name="share_lyric_warning_background_color">#46000000</color>
+    <color name="share_lyric_selected_item_color">#24ffffff</color>
+    <color name="share_lyric_letter_line_color">#66666666</color>
+    <color name="share_lyric_select_lyric_firstline_color">#4dffffff</color>
+    <color name="share_lyric_select_lyric_secondline_color">#7fffffff</color>
+    <color name="share_lyric_tab_color">#3a5266</color>
+    <color name="share_lyric_letter_text_color">#666666</color>
+    <color name="share_lyric_letter_text_shadow_color">#ffffff</color>
+    <color name="share_lyric_not_sure_color">#99FFFFFF</color>
+    <color name="share_lyric_transfer_color">#00FFFFFF</color>
+    <color name="share_lyric_background_color2">#355269</color>
+
+    <!-- loading color -->
+    <color name="kg_loading_text_color">#848484</color>
+
+    <!-- playing song item background -->
+    <color name="kg_playing_song_item_bg_color">#08000000</color>
+
+    <!-- guide page -->
+    <!-- 引导页颜色 -->
+    <color name="guide_first_bg">#36d68e</color>
+    <color name="guide_second_bg">#fd7170</color>
+    <color name="guide_third_bg">#deba50</color>
+    <color name="guide_four_bg">#33a3f4</color>
+    <!-- 酷狗7.0铃声 -->
+    <color name="ring_kugou7_black">#FF333333</color>
+    <!-- mv -->
+    <color name="kg_mv_category_bg">#FFFFFFFF</color>
+    <color name="kg_mv_category_item_line">#bdbdbd</color>
+
+    <!-- 用户反馈 -->
+    <color name="kg_feedback_report_enter_text_color_normal">#333333</color>
+    <color name="kg_feedback_report_enter_text_color_pressed">#848484</color>
+    
+    
+    
+    <!-- V单 -->
+    <color name="discovery_mv_title_text_color">#2b2b2b</color>
+    <color name="discovery_mv_desc_text_color">#848484</color>
+    <color name="discovery_mv_item_divider">#dfdfdf</color>
+    <color name="discovery_mv_background">#f5f5f5</color>
+    <color name="discovery_mv_detail_time_color">#ffffff</color>
+    <color name="discovery_mv_detail_desc_color">#848484</color>
+    <color name="discovery_mv_detail_title_color">#333333</color>
+    <color name="discovery_mv_list_title_bg">#e7e7e7</color>
+    <color name="discovery_mv_list_title_text_color">#848484</color>
+        <!-- from ktv -->
+    <drawable name="kg_ktv_content_bg">#00000000</drawable>
+    <drawable name="kg_ktv_list_item_click_bg">#0c000000</drawable>
+    <drawable name="kg_ktv_list_item_delete_bg">#00000000</drawable>
+    <color name="album_bought_color">#ffee2d</color>
+   <!-- 音乐收费 -->
+	<color name="kg_music_fees_custom_black">#333333</color>
+	<color name="kg_music_fees_custom_yellow">#ff9600</color>
+	<color name="kg_music_fees_custom_gray">#848484</color>
+	<color name="kg_music_fees_custom_green">#40c200</color>
+	<color name="kg_music_fees_custom_line">#e5e5e5</color>
+	<color name="kg_music_fees_custom_blue">#249ef6</color>
+	<color name="kg_music_fees_custom_light_gray">#bdbdbd</color>
+	<color name="kg_music_fees_custom_text_light_gray">#999999</color>
+	<color name="kg_music_fees_custom_buy_button_orange">#faa02e</color>
+	<color name="kg_music_fees_custom_line_gray">#e9e9e9</color>
+	<color name="kg_music_fees_custom_boundary_gray">#f5f5f5</color>
+	<color name="kg_music_fees_custom_red">#ff3b30</color>
+	<color name="kg_music_fees_custom_tip_light_gray">#666666</color>
+
+    <!--歌词分享-->
+    <color name="kg_share_lyric_portrait">#66ffffff</color>
+    <color name="kg_share_lyric_portrait_qr_bg">#66FFFFFF</color>
+    <color name="kg_share_lyric_portrait_qr_force">#444444</color>
+    <color name="kg_share_lyric_letter">#FF888888</color>
+    <color name="kg_share_lyric_letter_qr_force">#888888</color>
+    <color name="kg_share_lyric_letter_qr_bg">#00FFFFFF</color>
+
+    <!-- 歌曲信息 -->
+    <color name="kg_info_text_color">#333333</color>
+    <color name="kg_info_text_color_two">#686868</color>
+
+    <color name="kg_mv_goto_mvhomepage">#249ef6</color>
+    <color name="kg_mv_delete">#f44646</color>
+	<color name="kg_mv_dialog_delete_content">#333333</color>
+	<color name="kg_mv_dialog_btn_cancel_default">#848484</color>
+	<color name="kg_mv_delete_upper_layer">#19000000</color>
+    <!-- 扫描特殊歌曲 -->
+    <color name="kg_scan_special_song">#f4efcf</color>
+    <color name="kg_scan_special_song_pressed">#efeac8</color>
+    <color name="kg_setting_list_item_pressed_color">#e9e9e9</color>
+
+    <!-- mv fullscreen download -->
+    <color name="mv_download_full_screen_white">#ffffff</color>
+    <color name="mv_download_full_screen_gray">#FF878787</color>
+
+    <color name="about_background_bg">#F5F5F5</color>
+
+    <!-- 歌曲更多版本 -->
+    <color name="kg_music_more_bg">#efefef</color>
+    <color name="kg_music_title_text_color">#686868</color>
+</resources>

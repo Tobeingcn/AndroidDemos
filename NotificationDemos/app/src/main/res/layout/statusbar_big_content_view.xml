@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="115dp" >
+
+    <ImageView
+        android:id="@+id/statusbar_artist_image"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/notification_default_icon" />
+
+    <ImageView
+        android:id="@+id/kugou_logo"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_margin="2dp"
+        android:layout_alignBottom="@id/statusbar_artist_image"
+        android:layout_alignRight="@id/statusbar_artist_image"
+        android:src="@drawable/statusbar_kugou_logo_big" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="115dp"
+        android:layout_toRightOf="@id/statusbar_artist_image"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/statusbar_track_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="33dip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="惠威试音碟-加州旅馆" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/kg_big_notification_top_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#33999999" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal" >
+
+           <ImageButton
+                android:id="@+id/statusbar_big_content_play_mode"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/kg_btn_noti_close"
+                android:background="@color/transparent"
+                android:visibility="gone"
+                />
+            
+            
+            <ImageButton
+                android:id="@+id/statusbar_big_lyric_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:padding="4dp"
+                android:scaleType="fitCenter"
+                android:background="@color/transparent"
+                android:src="@drawable/kg_btn_noti_lyr_close" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/statusbar_big_content_prev_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="@dimen/statusbar_btn_margin"
+                android:padding="4dp"
+                android:scaleType="fitCenter"
+                android:background="@color/transparent"
+                android:src="@drawable/kg_btn_noti_pre" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/statusbar_big_content_pause_or_play"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="@dimen/statusbar_btn_margin"
+                android:layout_marginRight="@dimen/statusbar_btn_margin"
+                android:padding="4dp"
+                android:scaleType="fitCenter"
+                android:background="@color/transparent"
+                android:src="@drawable/kg_btn_noti_pause" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/statusbar_big_content_next_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="@dimen/statusbar_btn_margin"
+                android:padding="4dp"
+                android:scaleType="fitCenter"
+                android:background="@color/transparent"
+                android:src="@drawable/kg_btn_noti_next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/statusbar_big_content_unlock_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:clickable="true"
+            android:visibility="visible"
+            android:background="@drawable/kg_btn_noti_lyr_unlock_item_selector"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#33999999" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleType="fitCenter"
+                    android:background="@color/transparent"
+                    android:src="@drawable/kg_btn_noti_lock_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-5dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="#cccccc"
+                    android:textSize="@dimen/textMediumSize"
+                    android:text="点击解锁桌面歌词" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 30dp -->
+    <ImageButton
+        android:id="@+id/statusbar_big_content_close_btn"
+        android:layout_width="33dip"
+        android:layout_height="33dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
+        android:background="@color/transparent"
+        android:src="@drawable/kg_btn_noti_close" />
+
+</RelativeLayout>

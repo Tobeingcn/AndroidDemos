@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="108dp" >
+
+    <ImageView
+        android:id="@+id/statusbar_artist_image"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/notification_default_icon" />
+
+    <ImageView
+        android:id="@+id/kugou_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/statusbar_artist_image"
+        android:layout_alignRight="@id/statusbar_artist_image"
+        android:src="@drawable/statusbar_kugou_logo_big" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="108dp"
+        android:layout_toRightOf="@id/statusbar_artist_image"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/statusbar_track_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="惠威试音碟-加州旅馆" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="3dp"
+            android:background="#ff2a2a2a" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/statusbar_super_content_pause_or_play"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="@dimen/statusbar_btn_margin"
+                android:layout_marginRight="@dimen/statusbar_btn_margin"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_default_bg"
+                android:src="@drawable/statusbar_btn_pause" 
+                android:visibility="invisible"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 30dp -->
+    <ImageButton
+        android:id="@+id/statusbar_big_content_close_btn"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_default_bg"
+        android:src="@drawable/statusbar_btn_close" />
+
+</RelativeLayout>

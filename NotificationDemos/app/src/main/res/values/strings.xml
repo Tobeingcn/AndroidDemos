@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NotificationDemos</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_simple_notification">简单通知消息</string>
+    <string name="button_simple_notificationv11">简单通知消息V11</string>
+    <string name="button_simple_notificationv16">简单通知消息V16</string>
+    <string name="button_simple_notificationvself">自定义</string>
+    <string name="button_simple_notificationvselfCPX">自定义复杂</string>
+    <string name="button_clear_all">删除所有</string>
+    <string name="button_print_All">输出结果</string>
+    <string name="button_show_kugou">输出显示kugou</string>
+    <string name="button_clear_last">删除上一个</string>
+</resources>

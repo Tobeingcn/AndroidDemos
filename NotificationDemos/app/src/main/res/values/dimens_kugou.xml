@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_margin">16dip</dimen>
+    <dimen name="scan_margin_space">20dip</dimen>
+    <dimen name="three_line_lyric_height">145dip</dimen>
+    <dimen name="audio_item_local_icon_height">16dip</dimen>
+    <dimen name="audio_item_hq_icon_width">34.7dip</dimen>
+    <dimen name="audio_item_hq_icon_height">13.3dip</dimen>
+    <dimen name="audio_item_mv_icon_width">34.7dip</dimen>
+    <dimen name="audio_item_mv_icon_height">13.3dip</dimen>
+    <dimen name="navigation_item_height">56dip</dimen>
+    <dimen name="list_item_width">56dip</dimen>
+    <dimen name="list_item_half_width">28dip</dimen>
+    <dimen name="list_dividing_item_height">35dip</dimen>
+    <dimen name="play_list_item_height">70dip</dimen>
+    <dimen name="play_list_item_pix_height">65dip</dimen>
+    <dimen name="play_list_item_album_bg_pix_width">77dip</dimen>
+    <dimen name="downloading_list_item_height">60dip</dimen>
+    <dimen name="btn_toggle_menu_width">45dip</dimen>
+    <dimen name="btn_toggle_menu_paddingleft">20dip</dimen>
+    <dimen name="btn_toggle_menu_paddingtop">20dip</dimen>
+    <dimen name="playing_indicator_width">4dip</dimen>
+    <dimen name="playing_indicator_height">48dip</dimen>
+    <dimen name="list_shuffle_item_height">36dip</dimen>
+    <dimen name="search_main_list_item_height">47dip</dimen>
+    <dimen name="quickmenu_shadow_horiz">30dip</dimen>
+    <dimen name="quickmenu_shadow_vert">28dip</dimen>
+    <dimen name="quickmenu_shadow_touch">20dip</dimen>
+    <dimen name="main_bar_height">70dip</dimen>
+    <dimen name="navigation_title_text_size">16dip</dimen>
+    <dimen name="navigation_extra_info_text_size">15dip</dimen>
+    <dimen name="main_bar_subtitle_text_size">13dip</dimen>
+    <dimen name="playing_bar_back_text_size">18dip</dimen>
+    <dimen name="media_marginbottom_bar_size">50dip</dimen>
+    <dimen name="avatar_size">224px</dimen>
+    <dimen name="net_music_loading_bar_height">117dip</dimen>
+    <dimen name="net_music_loading_bar_halt_height">57dip</dimen>
+    <dimen name="lyr_text_size">24px</dimen>
+    <dimen name="lyr_widget_text_size">16dip</dimen>
+    <dimen name="lyr_row_margin">4dip</dimen>
+    <dimen name="search_bar_padding_right">70dip</dimen>
+    <dimen name="vol_seekbar_height">2dip</dimen>
+    <dimen name="skin_grid_image_size">50dip</dimen>
+    <dimen name="skin_grid_color_size">33dip</dimen>
+    <dimen name="skin_color_grid_padding">7dip</dimen>
+    <dimen name="skin_bg_grid_padding">1.6dip</dimen>
+    <dimen name="skin_grid_item_width">68dip</dimen>
+    <dimen name="audio_list_item_title_margin_right">5dip</dimen>
+    <dimen name="audio_item_local_mark_margin_right">4dip</dimen>
+    <dimen name="playing_indicator_margin_right">6dip</dimen>
+    <dimen name="audio_item_icon_margin_left">6dip</dimen>
+    <dimen name="navigation_icon_width">52dip</dimen>
+    <dimen name="close_icon_width">56dip</dimen>
+    <dimen name="channel_list_item_icon_height">50dip</dimen>
+
+    <!-- 系统菜单 -->
+    <dimen name="system_menu_height">75dip</dimen>
+    <dimen name="system_menu_divider_height">50dip</dimen>
+    <dimen name="system_menu_icon_text_padding">8dip</dimen>
+    <dimen name="system_menu_item_margin">5dip</dimen>
+
+    <!-- custom color dialog -->
+    <dimen name="custom_mixcolor_win_size">80dip</dimen>
+    <dimen name="custom_color_value_width">40dip</dimen>
+    <dimen name="custom_color_dialog_margintop">20dip</dimen>
+    <dimen name="custom_color_dialog_btn_margintop">23dip</dimen>
+    <dimen name="custom_color_value_marginleft">10dip</dimen>
+    <dimen name="custom_color_bar_margintop">7dip</dimen>
+    <dimen name="custom_color_bar_marginleft">7dip</dimen>
+
+    <!-- main bar album image -->
+    <dimen name="album_image_border">1.3dip</dimen>
+    <dimen name="album_image_src_height">50dip</dimen>
+    <dimen name="album_image_width">76dip</dimen>
+    <dimen name="album_image_height">58dip</dimen>
+    <dimen name="album_image_paddingTop">7dip</dimen>
+    <!-- 桌面widget -->
+    <dimen name="widget4_avatar_size">400px</dimen>
+    <dimen name="widget2_avatar_size">160dip</dimen>
+    <dimen name="widget1_avatar_size">160px</dimen>
+    <dimen name="widget2_root_layout_marginleft">5dip</dimen>
+    <dimen name="widget2_root_layout_marginright">5dip</dimen>
+    <dimen name="widget2_linear_layout1_padding">5dip</dimen>
+    <dimen name="widget2_linear_layout2_paddingright">10dip</dimen>
+    <dimen name="widget2_linear_layout2_paddingbottom">5dip</dimen>
+    <dimen name="widget2_appwidget2_music_name_txt_margintop">5dip</dimen>
+    <dimen name="widget2_appwidget2_currenttime_marginright">3dip</dimen>
+    <dimen name="widget2_appwidget2_lrc_margintop">10dip</dimen>
+    <dimen name="widget2_appwidget2_progressbar_margintop">8dip</dimen>
+    <dimen name="widget2_appwidget2_progressbar_marginleft">10dip</dimen>
+    <dimen name="widget2_appwidget2_progressbar_marginright">10dip</dimen>
+    <dimen name="widget2_linear_layout3_margintop">16dip</dimen>
+    <dimen name="appwidget1_txt_display_name_margintop">8dip</dimen>
+    <dimen name="appwidget4_layout_bg_height">45dip</dimen>
+    <dimen name="appwidget4_linearlayout1_margintop">7dip</dimen>
+    <dimen name="appwidget4_progressbar_margintop">15dip</dimen>
+    <dimen name="minilyric_text_color_setting_imageview_height">38dip</dimen>
+    <dimen name="minilyric_text_color_setting_imageview_width">38dip</dimen>
+    <dimen name="minilyric_text_color_setting_linear_layout_padding">6dip</dimen>
+
+    <!-- 扫描界面 -->
+    <dimen name="scan_all_margintop">36dip</dimen>
+    <dimen name="scan_all_height">50dip</dimen>
+    <dimen name="scan_folder_height">59dip</dimen>
+    <dimen name="scan_folder_margintop">17dip</dimen>
+    <dimen name="checkbox_margintop">17dip</dimen>
+    <dimen name="scanbtn_text_size">16dip</dimen>
+    <dimen name="scanning_percent_margintop">37dip</dimen>
+    <dimen name="scanning_info_margintop">20dip</dimen>
+    <dimen name="scanning_btn_scan_ctrl_margintop">80dip</dimen>
+    <dimen name="scanning_btn_scan_ctrl_width">149dip</dimen>
+    <dimen name="loading_layout_marginbottom">75dip</dimen>
+    <dimen name="edit_mode_inner_btn_height">32dip</dimen>
+    <dimen name="right_menu_popwindow_item_width">200dip</dimen>
+    <dimen name="right_menu_popwindow_item_height">55dip</dimen>
+    <dimen name="right_menu_popwindow_padding">7dip</dimen>
+    <dimen name="right_menu_popwindow_item_margin">3dip</dimen>
+    <dimen name="singerinfo_btn_getmore_width">142dip</dimen>
+    <dimen name="singerinfo_btn_getmore_height">40dip</dimen>
+    <dimen name="singerinfo_btn_text_size">15dip</dimen>
+    <dimen name="singerintroduce_text_size">15dip</dimen>
+    <dimen name="audio_list_item_width">284dip</dimen>
+    <dimen name="play_list_common_bar_header_height">30dip</dimen>
+    <dimen name="lsit_common_bar_right_btn_width">70dip</dimen>
+    <dimen name="lsit_common_bar_right_btn_width_2">55dip</dimen>
+    <dimen name="audio_list_letterlistview_width">24dip</dimen>
+    <dimen name="common_title_count_text_marginright">24dip</dimen>
+    <dimen name="common_checkbox_title_bar_checkbox_marginright">20dip</dimen>
+    <dimen name="scan_bottom_control_bar_height">120dip</dimen>
+    <dimen name="scan_all_width">214dip</dimen>
+    <dimen name="scan_folder_layout_width">115dip</dimen>
+    <dimen name="scan_setting_icon_text_layout_width">98dip</dimen>
+    <dimen name="scan_no_music_text_size">12dip</dimen>
+    <dimen name="btn_wifi_transfer_layout_width">250dip</dimen>
+    <dimen name="wifi_web_server_address_width">226dip</dimen>
+    <dimen name="wifi_nsfering_tip_width">230dip</dimen>
+    <dimen name="scan_top_layout_height">190dp</dimen>
+
+    <!-- 中字体大小 -->
+    <dimen name="textPlayTitleSize">22dip</dimen>
+    <dimen name="textClockSize">30dip</dimen>
+    <dimen name="textSuperLargeSize">23dip</dimen>
+    <dimen name="textLargeSize">18dip</dimen>
+    <dimen name="textMediumSize">14dip</dimen>
+    <dimen name="textMinSize">12dip</dimen>
+    <dimen name="textExMediumSize">16dip</dimen>
+    <dimen name="textSmallSize">10dip</dimen>
+    <dimen name="searchMaintextMediumSize">14dip</dimen>
+    <dimen name="subscribeTextSize">15dip</dimen>
+    <dimen name="textExMinSize">13dip</dimen>
+    <dimen name="albumBoughtSize">16dip</dimen>
+    <!-- 编辑框光标左移 -->
+    <dimen name="edittextpaddingLeft">10dip</dimen>
+
+    <integer-array name="lyr_row_margin_value_array">
+        <item>32</item>
+        <item>28</item>
+        <item>24</item>
+    </integer-array>
+    <!-- 注意minilyric_control_height_default_value和minilyric_control_height要对应 -->
+    <integer-array name="minilyric_control_height_default_value">
+        <item>70</item>
+    </integer-array>
+
+    <dimen name="minilyric_control_height">50dip</dimen>
+    <!-- 注意minilyric_control_height_default_value和minilyric_control_height要对应 -->
+    <integer-array name="minilyric_textsize_height_default_value">
+        <item>70</item>
+    </integer-array>
+
+    <dimen name="minilyric_textsize_height">70dip</dimen>
+
+    <!-- 注意minilyric_size_and_color_height_default_value和minilyric_size_and_color_height要对应 -->
+    <integer-array name="minilyric_size_and_color_height_default_value">
+        <item>70</item>
+    </integer-array>
+
+    <dimen name="minilyric_size_and_color_height">57dip</dimen>
+
+    <!-- 歌词样式控制面板宽度 -->
+    <dimen name="lyric_control_width">59dip</dimen>
+    <dimen name="lyric_control_height">44dip</dimen>
+    <dimen name="lyric_control_margin">5dip</dimen>
+    <dimen name="lyric_control_margin_long">20dip</dimen>
+    <dimen name="lyric_control_item_width">53dip</dimen>
+    <dimen name="lyric_control_item_heigh">44dip</dimen>
+    <dimen name="lyric_control_img_text_margin">5dip</dimen>
+    <dimen name="singer_list_image_size">54dip</dimen>
+    <dimen name="lyric_padding_width">0dip</dimen>
+    <dimen name="secondTab">40dip</dimen>
+    <dimen name="lyric_margin_top">40dip</dimen>
+    <!-- 详情页 -->
+    <dimen name="lable_detail_activity_imageview_height">267dip</dimen>
+    <dimen name="lable_detail_activity_imageview_width">267dip</dimen>
+    <dimen name="lable_detail_activity_imageview_margintop">10dip</dimen>
+    <dimen name="lable_detail_activity_textview_width">277dip</dimen>
+    <dimen name="lable_detail_activity_textview_margintop">8dip</dimen>
+
+    <!-- 歌词搜索界面 -->
+    <dimen name="lyric_search_position_view_height">32dip</dimen>
+    <dimen name="lyric_search_use_lyric_layout_height">60dip</dimen>
+    <dimen name="lyric_search_use_lyric_btn_width">105dip</dimen>
+    <dimen name="lyric_search_lyric_view_margin_bottom">110dip</dimen>
+
+    <!-- 歌手 -->
+    <dimen name="singer_grid_margin">12dip</dimen>
+    <dimen name="singer_grid_item_padding">5dip</dimen>
+    <dimen name="singer_grid_vertical_spacing">12dip</dimen>
+    <dimen name="singer_grid_horizontal_spacing">12dip</dimen>
+    <dimen name="singer_grid_column_width">92dip</dimen>
+    <dimen name="singer_name_text_margintop">5dip</dimen>
+    <dimen name="singer_grid_item_height">110dip</dimen>
+    <dimen name="singer_grid_frame_size">2dip</dimen>
+    <dimen name="singer_grid_item_image_size">90dip</dimen>
+    <dimen name="singer_search_bar_padding_top">4dip</dimen>
+    <dimen name="singer_search_bar_padding_bottom">4dip</dimen>
+    <dimen name="singer_search_bar_padding_left">20dip</dimen>
+    <dimen name="singer_search_bar_padding_right">20dip</dimen>
+    <dimen name="singer_search_edit_height">23dip</dimen>
+    <dimen name="singer_search_bar_height">41dip</dimen>
+    <dimen name="singer_grid_item_layout_marginTop">4dip</dimen>
+    <dimen name="singer_detail_text_padding_vertical">10dp</dimen>
+    <dimen name="singer_detail_padding_horizontal">10dp</dimen>
+    <dimen name="singer_detail_group_title_margin_top">15dp</dimen>
+    <dimen name="singer_detail_group_title_margin_bottom">10dp</dimen>
+    <dimen name="singer_detail_group_title_icon_padding">6dp</dimen>
+
+    <!-- 登陆界面 -->
+    <dimen name="love_login_root_linearlayout_paddingLeft">17dip</dimen>
+    <dimen name="love_login_root_linearlayout_paddingRight">17dip</dimen>
+    <dimen name="love_login_username_linearlayout_layout_marginTop">34dip</dimen>
+    <dimen name="love_login_password_linearlayout_layout_marginTop">52dip</dimen>
+    <dimen name="kg_love_login_open_account_linearlayout_layout_marginTop">15dip</dimen>
+    <dimen name="kg_love_login_weibo_img_marginTop">15dip</dimen>
+    <dimen name="love_login_relativelayout_layout_marginRight">5dip</dimen>
+    <dimen name="love_login_edittext_height">50dip</dimen>
+    <dimen name="love_login_edittext_width">65dip</dimen>
+    <dimen name="love_login_edittext_paddingLeft">55dip</dimen>
+    <dimen name="love_login_textview_layout_marginLeft">10dip</dimen>
+    <dimen name="kg_love_login_list_height">46dip</dimen>
+    <dimen name="kg_love_login_forgot_passwd_marginTop">10dip</dimen>
+
+    <!-- 电台 -->
+    <dimen name="net_main_frame_margintop">10dip</dimen>
+
+    <!-- 电台列表一项 -->
+    <dimen name="channel_list_item_margintop">7dip</dimen>
+    <dimen name="channel_list_item_marginleft">9dip</dimen>
+    <dimen name="channel_list_item_marginright">9dip</dimen>
+    <dimen name="channel_list_item_marginbottom">7dip</dimen>
+    <!-- 文字离图片距离 -->
+    <dimen name="channel_list_item_layout_marginleft">12dip</dimen>
+    <!-- 按钮图片大小 -->
+    <dimen name="channel_list_item_image_width">32dip</dimen>
+    <dimen name="channel_list_item_image_height">32dip</dimen>
+    <dimen name="channel_list_item_image_marginright">0dip</dimen>
+    <!-- 分类标题文字位置 -->
+    <dimen name="divider_text_size">16dip</dimen>
+    <dimen name="divider_text_marginleft">16dip</dimen>
+    <dimen name="lable_class_linear_padding_top">6dip</dimen>
+    <dimen name="lable_class_linear_padding_left">0dip</dimen>
+    <dimen name="lable_class_textview_marginLeft">9dip</dimen>
+    <dimen name="lable_class_textview_height">76dip</dimen>
+    <dimen name="lable_class_textview_width">32dip</dimen>
+    <dimen name="lable_class_linear_padding_right">0dip</dimen>
+    <dimen name="lable_class_linear_minheight">50dip</dimen>
+
+    <!-- 排行标题左偏移 -->
+    <dimen name="lable_class_list_layout_marginLeft">9dip</dimen>
+    <dimen name="lable_class_list_layout_marginright">9dip</dimen>
+    <!-- 列表项对应的高度值 -->
+    <integer-array name="lable_class_linear_minheight_value">
+        <item>50</item>
+    </integer-array>
+    <!-- MV -->
+    <dimen name="mv_vol_item_height">130dip</dimen>
+    <dimen name="mv_play_bar_height">20dip</dimen>
+    <dimen name="mv_list_pop_width">220dip</dimen>
+    <dimen name="mv_list_pop_item_heigh">50dip</dimen>
+    <dimen name="mv_list_item_height">79dip</dimen>
+    <dimen name="mv_list_item_paddingleft">8dip</dimen>
+    <dimen name="mv_list_item_paddingtop">5dip</dimen>
+    <dimen name="mv_list_item_paddingbottom">4dip</dimen>
+    <dimen name="mv_list_item_image_width">104dip</dimen>
+    <dimen name="mv_list_item_image_height">69dip</dimen>
+    <dimen name="mv_list_item_text_marginleft">10dip</dimen>
+    <dimen name="mv_list_item_padding_edge">12dip</dimen>
+    <dimen name="mv_list_item_padding_inner">10dip</dimen>
+    <dimen name="mv_seekbar_margin_left_or_right_full_screen">12dip</dimen>
+    <dimen name="mv_seekbar_margin_left_or_right_default_screen">5dip</dimen>
+    <dimen name="mv_pause_btn_margin_left_or_right_full_screen">2dip</dimen>
+    <dimen name="mv_pause_btn_margin_left_or_right_default_screen">0dip</dimen>
+    <dimen name="mv_dialog_padding">10dip</dimen>
+    <!-- 推荐 -->
+    <dimen name="lable_recommend_list_item_height">130dip</dimen>
+    <dimen name="lable_recommend_list_item_paddingleft">8dip</dimen>
+    <dimen name="lable_recommend_list_item_paddingtop">5dip</dimen>
+    <dimen name="lable_recommend_list_item_paddingbottom">4dip</dimen>
+    <dimen name="lable_recommend_list_item_image_width">100dip</dimen>
+    <dimen name="lable_recommend_list_item_image_height">100dip</dimen>
+    <dimen name="lable_recommend_list_item_text_marginleft">10dip</dimen>
+    <!-- 专辑，歌单 -->
+    <dimen name="lable_special_list_item_height">70dip</dimen>
+    <dimen name="lable_special_list_item_image_width">57dip</dimen>
+    <dimen name="lable_special_list_item_image_height">57dip</dimen>
+    <dimen name="lable_special_list_item_paddingleft">13dip</dimen>
+    <dimen name="lable_special_list_item_paddingright">13dip</dimen>
+    <dimen name="playlist_detail_content_layout_height">80dip</dimen>
+
+    
+
+    <!-- 标签单曲说明 -->
+    <dimen name="lable_single_audio_description_view_height">70dip</dimen>
+    <dimen name="lable_single_audio_description_view_paddingleft">14dip</dimen>
+    <dimen name="lable_single_audio_description_view_paddingright">28dip</dimen>
+    <dimen name="lable_single_audio_description_view_paddingtop">6dip</dimen>
+    <dimen name="lable_single_audio_description_view_image_width">100dip</dimen>
+    <dimen name="lable_single_audio_description_view_image_height">100dip</dimen>
+    <dimen name="lable_single_audio_description_view_text_marginleft">7dip</dimen>
+    <dimen name="lable_single_audio_description_view_text1_size">16dip</dimen>
+    <dimen name="lable_single_audio_description_view_text2_size">14dip</dimen>
+    <dimen name="lable_single_audio_description_view_text3_size">12dip</dimen>
+
+    <!-- 弹出框 -->
+    <dimen name="dialog_height">250dip</dimen>
+    <dimen name="dialog_width">294dip</dimen>
+    <dimen name="dialog_width_horizontal">394dip</dimen>
+    <dimen name="dialog_height_horizontal">250dip</dimen>
+    <dimen name="dialog_margin_top">50dip</dimen>
+    <dimen name="dialog_margin_bottom">50dip</dimen>
+    <dimen name="dialog_content_min_height">100dip</dimen>
+    <dimen name="dialog_title_bar_height">50dip</dimen>
+    <dimen name="dialog_select_title_bar_height">55dip</dimen>
+    <dimen name="dialog_bottom_bar_height">50dip</dimen>
+    <dimen name="dialog_share_list_height">200dip</dimen>
+    <dimen name="dialog_divider_view_hight">2px</dimen>
+    <dimen name="dialog_add_music_height">294dip</dimen>
+    <dimen name="dialog_add_music_width">280dip</dimen>
+    <dimen name="dialog_common_title_layout_marginLeft">15dip</dimen>
+    <dimen name="dialog_common_title_layout_marginRight">15dip</dimen>
+
+    <!-- 菜单样式弹出框 -->
+    <dimen name="menu_dialog_width">250dip</dimen>
+    <dimen name="menu_dialog_padding_left">10dip</dimen>
+    <dimen name="menu_dialog_padding_right">10dip</dimen>
+    <dimen name="menu_dialog_icon_text_padding">10dip</dimen>
+    <dimen name="menu_dialog_line_height">5dip</dimen>
+    <dimen name="menu_dialog_line_radius">2.5dip</dimen>
+    <dimen name="menu_dialog_title_height">50dip</dimen>
+    <dimen name="menu_dialog_item_height">50dip</dimen>
+    <dimen name="menu_dialog_divider_height">2px</dimen>
+
+    <!-- 定时关闭 -->
+    <dimen name="dialog_setting_ring_height">305dp</dimen>
+    <dimen name="dialog_sleep_height">257dip</dimen>
+    <dimen name="dialog_sleep_list_item_height">59dip</dimen>
+    <dimen name="dialog_sleep_title_layout_marginLeft">15dip</dimen>
+    <dimen name="dialog_sleep_text_layout_marginLeft">24dip</dimen>
+    <dimen name="dialog_sleep_radio_layout_marginRight">36dip</dimen>
+    <dimen name="dialog_music_down_select_layout_marginLeft">20dip</dimen>
+    <dimen name="dialog_add_local_text_layout_marginLeft">20dip</dimen>
+    <dimen name="dialog_common_confirm_edittext_padding">8dip</dimen>
+    <dimen name="dialog_content_layout_marginTop">20dip</dimen>
+    <dimen name="dialog_content_layout_marginBottom">8dip</dimen>
+
+    <!-- eq -->
+
+    <dimen name="dialog_eq_listView_height">400dip</dimen>
+    <dimen name="eq_text_db_marginRight">10dip</dimen>
+    <dimen name="eq_channel_balance_container_padding">30dp</dimen>
+    <dimen name="eq_channel_balance_seekbar_thumb_offset">10dp</dimen>
+    <dimen name="eq_channel_balance_seekbar_padding">8dp</dimen>
+    <dimen name="eq_channel_balance_seekbarr_margin">12dp</dimen>
+
+    <!-- 查看歌曲信息 -->
+    <dimen name="dialog_show_song_info_change_name_button_width">80dip</dimen>
+    <dimen name="dialog_show_song_info_change_name_button_height">30dip</dimen>
+    <dimen name="dialog_show_song_info_change_name_button_layout_marginRight">10dip</dimen>
+    <dimen name="dialog_show_song_info_change_name_button_ok_width">46dip</dimen>
+    <dimen name="dialog_show_song_info_change_name_button_ok_height">30dip</dimen>
+
+    <!-- 全部收藏弹出框 -->
+    <dimen name="dialog_all_favorite_title_margintop">5dip</dimen>
+    <dimen name="dialog_all_favorite_title_paddingleft">20dip</dimen>
+    <dimen name="dialog_all_favorite_no_login_paddingleft">30dip</dimen>
+    <dimen name="dialog_all_favorite_title_paddingright">20dip</dimen>
+    <dimen name="dialog_all_favorite_local_paddingleft">38dip</dimen>
+    <dimen name="dialog_delete_check_paddingleft">25dip</dimen>
+    <dimen name="dialog_delete_check_layout_marginLeft">10dip</dimen>
+
+    <!-- 歌曲信息 -->
+    <dimen name="dialog_show_song_info_text_padding_left">3dip</dimen>
+    <dimen name="dialog_show_song_info_text_padding_top">5dip</dimen>
+    <dimen name="dialog_show_song_info_linear_padding_left">15dip</dimen>
+    <!-- 保存路径linearLayout -->
+    <dimen name="dialog_show_song_info_linear_padding_right">10dip</dimen>
+    <!-- 图词报错 -->
+    <dimen name="dialog_avatarandlyric_uploaderror_height">300dip</dimen>
+    <!-- 乐库 -->
+    <dimen name="net_media_linear_margintop">1dip</dimen>
+    <dimen name="net_media_radio_group_margintop">4dip</dimen>
+    <dimen name="net_media_linear_marginleft">0dip</dimen>
+    <dimen name="net_media_linear_marginright">0dip</dimen>
+    <!-- 搜索框所在的layout -->
+    <dimen name="net_media_linear_layout_height">47dip</dimen>
+    <dimen name="net_media_linear_layout_padding">8dip</dimen>
+    <dimen name="net_media_search_edit_height">31dip</dimen>
+    <dimen name="net_media_search_button_height">30dip</dimen>
+    <dimen name="net_media_search_button_layout_marginTop">0dip</dimen>
+    <dimen name="dialog_title_text_size">20dip</dimen>
+    <dimen name="user_image_size">110dip</dimen>
+    <dimen name="navigation_group_container_width">60dip</dimen>
+    <dimen name="navigation_group_divider_marginleft">58dip</dimen>
+    <dimen name="local_main_user_image_margin_left">36dip</dimen>
+    <dimen name="local_main_user_image_size">48dip</dimen>
+    <dimen name="local_main_item_magin">22dip</dimen>
+    <dimen name="local_main_footer_btn_width">100dip</dimen>
+    <dimen name="local_main_footer_btn_height">40dip</dimen>
+    <dimen name="local_main_offline_mode_height">32dip</dimen>
+    <dimen name="local_main_offline_mode_width">80dip</dimen>
+    <dimen name="eq_curve_height">100dip</dimen>
+    <dimen name="list_singer_image_size">54dip</dimen>
+    <dimen name="consteelation_view_height">270dip</dimen>
+    <dimen name="consteelation_text_width">160dip</dimen>
+    <dimen name="consteelation_radius">30dip</dimen>
+    <dimen name="search_tab_diver_width">1px</dimen>
+    <dimen name="search_bar_margin_left">10dip</dimen>
+    <dimen name="search_relative_info_singer_image_width">54dp</dimen>
+    <dimen name="search_relative_info_grid_view_height">64dp</dimen>
+    <dimen name="search_relative_info_view_height">80dp</dimen>
+    <dimen name="search_no_result_magin_top">68dp</dimen>
+    <dimen name="search_tab_bar_padding_top">2dp</dimen>
+    <dimen name="search_tab_bar_height">45dp</dimen>
+    <dimen name="search_mv_image_width">100dp</dimen>
+    <dimen name="search_mv_image_height">75dp</dimen>
+    <dimen name="search_no_result_drawablepadding">8dp</dimen>
+    <dimen name="search_no_result_iamge_width">140dp</dimen>
+    <dimen name="search_no_result_iamge_height">148dp</dimen>
+    <dimen name="search_third_bar_height">50dp</dimen>
+    <dimen name="kg_search_mv_result_image_width">100dp</dimen>
+    <dimen name="kg_search_mv_result_image_height">75dp</dimen>
+    <dimen name="kg_mv_download_image_width">100dp</dimen>
+    <dimen name="kg_mv_download_image_height">57dp</dimen>
+    <!-- 播放界面 -->
+    <!--
+         <dimen name="player_queue_width">250dip</dimen>
+    <dimen name="player_queue_height">305dip</dimen>
+
+
+    -->
+
+    <dimen name="player_mode_width">160dip</dimen>
+    <dimen name="player_mode_height">162dip</dimen>
+    <dimen name="player_mode_left">3dip</dimen>
+    <dimen name="player_mode_top">290dip</dimen>
+    <dimen name="player_singer_icon_size">60dip</dimen>
+    <dimen name="player_album_icon_size">70dip</dimen>
+    <dimen name="player_queue_list_icon_border_size">2dip</dimen>
+    <dimen name="player_queue_title_height">40dip</dimen>
+    <dimen name="player_title_shadow_height">100dip</dimen>
+    <dimen name="player_top_btn_size">40dip</dimen>
+    <dimen name="player_top_right_3btn_width">120dip</dimen>
+    <dimen name="player_top_btn_margin_top">4.5dip</dimen>
+    <dimen name="player_top_text_margin_top">2dip</dimen>
+    <dimen name="player_top_showwarning_text_margin_top">85dip</dimen>
+    <dimen name="player_top_hidewarning_text_margin_top">38dip</dimen>
+    <dimen name="player_top_text_margin_bottom">10dip</dimen>
+    <dimen name="player_tone_quality_btn_width">35dip</dimen>
+    <dimen name="player_tone_quality_btn_height">20dip</dimen>
+    <dimen name="player_mv_btn_padding">30dip</dimen>
+    <dimen name="player_dlna_btn_size">36dip</dimen>
+    <dimen name="player_dlna_btn_margin_left">8dip</dimen>
+    <dimen name="player_lyric_btn_size">34dip</dimen>
+    <dimen name="player_lyric_type_btn_size">54dip</dimen>
+    <dimen name="player_lyric_btn_margin_right">8dip</dimen>
+    <dimen name="player_accompaniment_btn_margin_left">8dip</dimen>
+    <dimen name="player_mini_lyric_margin_bottom">8dip</dimen>
+    <dimen name="player_mini_lyric_margin_left">12dip</dimen>
+    <dimen name="player_lyric_padding_edge">50dip</dimen>
+    <dimen name="player_mini_lyric_margin_right">56dip</dimen>
+    <dimen name="player_lyric_mode_mini_margin_bottom">208dip</dimen>
+    <dimen name="player_lyric_mode_full_margin_bottom">145dip</dimen>
+    <dimen name="player_full_lyric_margin_top">27dip</dimen>
+    <dimen name="player_full_lyric_margin_bottom">23dip</dimen>
+    <dimen name="player_lyric_animarion_distance">35dip</dimen>
+    <dimen name="player_seeker_bg_height">30dip</dimen>
+    <dimen name="player_seeker_text_width">50dip</dimen>
+    <dimen name="player_seeker_thumb_size">40dip</dimen>
+    <dimen name="player_seeker_thumb_offset">20dip</dimen>
+    <dimen name="player_seeker_margin_top">-5dip</dimen>
+    <dimen name="player_lyric_menu_height">60dip</dimen>
+    <dimen name="player_lyric_menu_btn_size">52dip</dimen>
+    <dimen name="player_lyric_menu_btn_spacing">10dip</dimen>
+    <dimen name="player_lyric_menu_img_padding_bottom">15dip</dimen>
+    <dimen name="player_lyric_menu_txt_padding_bottom">5dip</dimen>
+    <dimen name="player_lyric_color_submenu_margin">5dip</dimen>
+    <dimen name="player_lyric_color_submenu_height">51dip</dimen>
+    <dimen name="player_lyric_color_submenu_margin_bottom">2dip</dimen>
+    <dimen name="player_lyric_color_submenu_item_size">35dip</dimen>
+    <dimen name="player_lyric_color_submenu_item_margin">8dip</dimen>
+    <dimen name="player_lyric_size_submenu_margin">5dip</dimen>
+    <dimen name="player_lyric_size_submenu_height">50dip</dimen>
+    <dimen name="player_lyric_size_submenu_margin_bottom">2dip</dimen>
+    <dimen name="player_lyric_size_submenu_item_margin">4dip</dimen>
+    <dimen name="player_lyric_size_submenu_item_size">42dip</dimen>
+    <dimen name="player_lyric_size_submenu_seeker_padding_left">20dip</dimen>
+    <dimen name="player_lyric_size_submenu_seeker_padding_right">20dip</dimen>
+    <dimen name="player_menu_height">96dip</dimen>
+    <dimen name="player_menu_btn_size">52dip</dimen>
+    <dimen name="player_menu_btn_spacing">10dip</dimen>
+    <dimen name="player_menu_img_padding_bottom">15dip</dimen>
+    <dimen name="player_menu_txt_padding_bottom">5dip</dimen>
+    <dimen name="player_menu_volume_seeker_width">297dip</dimen>
+    <dimen name="player_menu_volume_seeker_padding_left">40dip</dimen>
+    <dimen name="player_menu_volume_seeker_padding_right">70dip</dimen>
+    <dimen name="player_menu_volume_seeker_margin_bottom">2dip</dimen>
+    <dimen name="player_menu_volume_icon_size">24dip</dimen>
+    <dimen name="player_menu_volume_icon_margin_bottom">10dip</dimen>
+    <dimen name="player_captcha_edit_width">160dip</dimen>
+    <dimen name="player_captcha_edit_height">30dip</dimen>
+    <dimen name="player_captcha_width">50dip</dimen>
+    <dimen name="player_captcha_height">30dip</dimen>
+    <dimen name="player_dialog_list_item_padding_left">20dip</dimen>
+    <dimen name="player_dialog_list_item_padding_right">20dip</dimen>
+    <dimen name="player_dialog_list_item_height">50dip</dimen>
+    <dimen name="player_recommend_item_padding_left">14dip</dimen>
+    <dimen name="player_recommend_item_img_size">34dip</dimen>
+    <dimen name="player_recommend_no_special_height">163dip</dimen>
+    <dimen name="player_send_lyric_error_item_padding_left">10dip</dimen>
+    <dimen name="player_send_lyric_error_item_padding_right">10dip</dimen>
+
+    <dimen name="player_recommend_album_item_bg_width">40dip</dimen>
+    <!-- 旧 -->
+    <dimen name="relativelayout_playback_album_size">289dip</dimen>
+    <dimen name="playback_album_size">267dip</dimen>
+    <dimen name="playback_album_margintop">12dip</dimen>
+    <dimen name="playback_image_button_layout_marginLeft">24dip</dimen>
+    <dimen name="playback_image_button_layout_marginRight">12dip</dimen>
+    <dimen name="playing_bar_padding_left_or_right">4dip</dimen>
+    <dimen name="playback_album_layout_marginTop">10dip</dimen>
+    <dimen name="playback_album_layout_marginBottom">5dip</dimen>
+    <dimen name="playback_album_lyric_marginBottom">20dip</dimen>
+    <dimen name="playback_singerinfo_layout_marginTop">15dip</dimen>
+    <dimen name="playing_bar_primary_text_max_width">105dip</dimen>
+    <dimen name="playing_bar_secondary_text_max_width">80dip</dimen>
+    <dimen name="playing_bar_secondary_text_max_width1">55dp</dimen>
+    <dimen name="playing_bar_primary_text_size">13.3dip</dimen>
+    <dimen name="playing_bar_secondary_text_size">10dip</dimen>
+    <dimen name="playing_bar_icon_size">13.3dip</dimen>
+    <dimen name="playing_bar_icon_gap">1dip</dimen>
+    <dimen name="playing_bar_album_size">60dip</dimen>
+    <dimen name="playing_bar_info_height">50dip</dimen>
+    <dimen name="playing_bar_album_padding">2.5dip</dimen>
+    <dimen name="playing_bar_height">70dip</dimen>
+    <dimen name="playing_bar_height_for_new_user_guide">65dip</dimen>
+    <dimen name="playing_bar_height_for_new_user_guide_back_key_cancel_remove_tips">55dip</dimen>
+    <dimen name="playing_bar_height_without_shadow">60dip</dimen>
+    <dimen name="playing_bar_child_marginTop">10dip</dimen>
+    <dimen name="playing_bar_seeker_thumb_offset">15dip</dimen>
+    <dimen name="playing_bar_seeker_progress_height">1.5dip</dimen>
+    <dimen name="playing_bar_seeker_marginTop">3dip</dimen>
+    <dimen name="playing_bar_name_paddingTop">5dip</dimen>
+    <dimen name="playing_bar_name_paddingBottom">3dip</dimen>
+    <dimen name="playing_bar_btn_width">50dip</dimen>
+    <dimen name="playing_bar_btn_height">50dip</dimen>
+    <dimen name="playing_bar_seekbar_margintop">0dip</dimen>
+    <dimen name="playing_bar_seekbar_marginbottom">37dip</dimen>
+    <dimen name="playing_bar_seekbar_marginleft">10dip</dimen>
+    <dimen name="playing_bar_seekbar_marginright">62dip</dimen>
+    <dimen name="playing_bar_seekbar_paddingLeft">100dip</dimen>
+    <dimen name="playing_bar_seekbar_paddingRight">15dip</dimen>
+    <dimen name="playing_bar_seekbar_thumbOffset">12dip</dimen>
+    <dimen name="playing_bar_right_paddingLeft">10dip</dimen>
+    <dimen name="playing_bar_right_text_gap">6dip</dimen>
+    <dimen name="playing_bar_right_marginleft">8dip</dimen>
+    <dimen name="playing_bar_seekbarbottom_margintop">10dip</dimen>
+    <dimen name="playing_bar_seekbarbottom_marginleft">8dip</dimen>
+    <dimen name="playing_seekbar_thumb_size">22dip</dimen>
+    <dimen name="playing_seebar_size">2dip</dimen>
+    <dimen name="playing_mv_seebar_size">2dip</dimen>
+    <dimen name="playing_bar_btn_padding">8dip</dimen>
+    <dimen name="playing_bar_text_info_margintop">0dip</dimen>
+    <dimen name="playing_bar_text_info_marginbottom">8dip</dimen>
+    <dimen name="playing_bar_display_name_text_size">13dip</dimen>
+    <dimen name="playing_bar_time_text_size">10dip</dimen>
+    <dimen name="playing_time_tips_height">30dip</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="song_list_primary_text_size">16dip</dimen>
+    <dimen name="song_list_second_text_size">14dip</dimen>
+    <dimen name="song_list_mid_text_size">12dip</dimen>
+    <dimen name="song_list_min_text_size">12dip</dimen>
+    <dimen name="feedback_qq_size">15dip</dimen>
+
+    <!-- 皮肤宽高 -->
+    <dimen name="skin_item_width">106dip</dimen>
+    <dimen name="skin_item_height">155dip</dimen>
+    <dimen name="skin_item_horizontal_spacing">3dp</dimen>
+    <dimen name="skin_item_vertical_spacing">3dp</dimen>
+    <dimen name="skin_grid_view_padding">11dp</dimen>
+    <dimen name="skin_edit_bar_padding_h">11dp</dimen>
+    <dimen name="list_menu_item_height">65dp</dimen>
+    <dimen name="list_menu_item_horizontal_spacing">4dp</dimen>
+    <dimen name="login_info_bar_paddingTop">12dip</dimen>
+    <dimen name="login_info_bar_paddingLeft">15dip</dimen>
+    <dimen name="login_info_bar_paddingButtom">5dip</dimen>
+    <dimen name="skin_item_downbtn_width">74dip</dimen>
+    <dimen name="skin_item_downbtn_height">26dip</dimen>
+    <dimen name="skin_item_titlebar_height">46dip</dimen>
+    <dimen name="skin_color_frame_width">65dp</dimen>
+    <dimen name="skin_color_frame_height">61dp</dimen>
+    <dimen name="skin_color_view_width">50dp</dimen>
+    <dimen name="skin_color_view_height">46dp</dimen>
+    <dimen name="skin_color_selector_bar_height">86dp</dimen>
+    <dimen name="skin_delete_button_width">30dp</dimen>
+    <!-- 皮肤字体大小 -->
+    <dimen name="skin_local_theme_count_text_size">14dp</dimen>
+    
+    
+    <!-- 列表项对应的高度值 -->
+    <integer-array name="channel_class_list_item_height_value">
+        <item>45</item>
+    </integer-array>
+
+    <dimen name="channel_class_list_item_height">45dip</dimen>
+    <dimen name="channel_class_list_item_width">60dip</dimen>
+    <!-- 电台标题左偏移 -->
+    <dimen name="channel_class_list_layout_marginLeft">5dip</dimen>
+    <dimen name="channel_class_list_layout_marginright">5dip</dimen>
+    <dimen name="pop_queue_list_width">230dip</dimen>
+    <dimen name="pop_queue_list_height">300dip</dimen>
+    <dimen name="overlay_view_width">80dip</dimen>
+    <dimen name="letter_view_width">30dip</dimen>
+    <dimen name="singer_letter_view_width">40dip</dimen>
+    <dimen name="local_music_header_height">215dip</dimen>
+    <dimen name="queue_list_item_height">40dip</dimen>
+    <dimen name="queue_playing_indicator_height">30dip</dimen>
+    <dimen name="btn_empty_scan_audio_width">188dip</dimen>
+    <dimen name="btn_empty_scan_audio_height">40dip</dimen>
+    <dimen name="user_guide_navigation_top">25dip</dimen>
+    <dimen name="user_guide_navigation_right">30dip</dimen>
+    <dimen name="user_guide_local_song_info_left">5dip</dimen>
+    <dimen name="user_guide_local_song_info_bottom">40dip</dimen>
+    <dimen name="user_guide_local_play_pause_left">120dip</dimen>
+    <dimen name="user_guide_local_play_pause_bottom">45dip</dimen>
+    <dimen name="user_guide_play_page_lyric_left">120dip</dimen>
+    <dimen name="user_guide_play_page_lyric_top">50dip</dimen>
+    <dimen name="user_guide_play_later_top">40dip</dimen>
+
+    <!-- 新版播放页面头像相关 -->
+    <dimen name="playback_album_title_divison_height">30dip</dimen>
+    <dimen name="playback_album_title_algin">8dip</dimen>
+    <dimen name="avatar_preview_spaceing">22dp</dimen>
+	<dimen name="player_page_menu_height">255dp</dimen>
+	<dimen name="player_page_album_bottom_margin">230dp</dimen>
+	<dimen name="player_page_menu_dot_margin">46dp</dimen>
+	<dimen name="player_page_menu_dot_text_size">14sp</dimen>
+
+    <dimen name="player_page_album_top_margin">85dp</dimen>
+    <dimen name="player_page_album_left_right_margin">40dp</dimen>
+    <dimen name="player_quality_switch_icon_padding">40dip</dimen>
+
+    <!-- slidingdrawer_playback -->
+    <dimen name="slidingdrawer_playback_playingbar_height">85dip</dimen>
+    <dimen name="slidingdrawer_playback_playingbar_padding">8dip</dimen>
+    <dimen name="slidingdrawer_playback_playingbar_icon_height">50dip</dimen>
+    <dimen name="slidingdrawer_playback_playingbar_icon_width">60dip</dimen>
+    <dimen name="slidingdrawer_playback_playingbar_pre_marginright">2dip</dimen>
+    <dimen name="slidingdrawer_playback_playingbar_edge_margin">5dip</dimen>
+    <dimen name="btn_offlinemode_width">119dip</dimen>
+    <dimen name="btn_offlinemode_height">35dip</dimen>
+    <dimen name="btn_offlinemode_marginleft">24dip</dimen>
+    <dimen name="btn_offlinemode_marginright">13dip</dimen>
+    <dimen name="btn_offlinemode_margintop">3dip</dimen>
+    <dimen name="minilyric_padding">8dip</dimen>
+    <dimen name="lyr_color_seletor_width">220dip</dimen>
+    <dimen name="lyr_color_seletor_height">111dip</dimen>
+    <dimen name="lyr_color_seletor_margintop">12dip</dimen>
+    <dimen name="lyr_color_seletor_marginbuttom">20dip</dimen>
+    <dimen name="lyr_color_seletor_marginleft">13dp</dimen>
+    <dimen name="lyr_color_seletor_marginright">15dp</dimen>
+    <dimen name="lyr_size_seletor_width">180dp</dimen>
+    <dimen name="lyr_size_seletor_height">60dp</dimen>
+    <dimen name="eq_rorate_btn_size">185dip</dimen>
+    <dimen name="eq_rorate_btn_bg_size">130dip</dimen>
+    <dimen name="eq_rorate_btn_knob_size">20dip</dimen>
+    <dimen name="eq_rorate_btn_offset">6dip</dimen>
+    <dimen name="eq_rorate_btn_progress_offset">10dip</dimen>
+    <dimen name="eq_min_width">2dip</dimen>
+    <dimen name="eq_value_textview_width">30dip</dimen>
+
+    <!-- 歌词分享 -->
+    <dimen name="share_lyric_sure_btn_width">77dip</dimen>
+    <dimen name="share_lyric_sure_btn_height">28dip</dimen>
+    <dimen name="share_lyric_sure_btn_margin_width">15dip</dimen>
+    <dimen name="share_lyric_sure_btn_margin_height">8dip</dimen>
+    <dimen name="share_lyric_photo_aspect">85dp</dimen>
+    <dimen name="share_lyric_photo_background_aspect">105dp</dimen>
+    <dimen name="share_lyric_listview_margin_top">40dp</dimen>
+    <dimen name="share_lyric_listview_margin_bottom">43dp</dimen>
+    <dimen name="share_lyric_line_length">50dp</dimen>
+    <dimen name="share_lyric_line_blank_length">75dp</dimen>
+
+    <!-- setting界面的圆角的半径 -->
+    <dimen name="preference_round_radius">8dip</dimen>
+    <dimen name="preference_category_height">11dip</dimen>
+    <dimen name="preference_childitem_marginleft">15dip</dimen>
+    <dimen name="preference_childitem_marginright">15dip</dimen>
+    <dimen name="preference_childitem_shape_stroke_width">1px</dimen>
+    <dimen name="preference_childitem_summary_margintop">4dip</dimen>
+    <dimen name="preference_childitem_height">56dip</dimen>
+    <dimen name="preference_childitem_title_size">15dip</dimen>
+    <dimen name="preference_childitem_summary_size">11dip</dimen>
+    <dimen name="checkbox_preference_drawable_width">51dip</dimen>
+    <dimen name="checkbox_preference_drawable_height">31dip</dimen>
+    <!-- 主页导航 -->
+    <dimen name="navigation_checkbox_round">11dip</dimen>
+    <dimen name="navigation_width">290dip</dimen>
+    <dimen name="navigation_header_height">85dip</dimen>
+    <dimen name="navigation_search_height">45dip</dimen>
+    <dimen name="navigation_search_edit_right_padding_long">90dip</dimen>
+    <dimen name="navigation_search_edit_right_padding_short">50dip</dimen>
+    <dimen name="navigation_header_icon_width">90dip</dimen>
+    <dimen name="navigation_header_icon_height">60dip</dimen>
+    <dimen name="navigation_header_icon_margin_top">8dip</dimen>
+    <dimen name="navigation_header_icon_margin_bottom">2dip</dimen>
+    <dimen name="navigation_header_icon_and_text_margin">10dip</dimen>
+    <dimen name="navigation_search_text_margin_left">29dip</dimen>
+    <dimen name="navigation_search_icon_size">32dip</dimen>
+    <dimen name="navigation_search_margin_bottom">8dip</dimen>
+    <dimen name="navigation_localmusic_height">66dip</dimen>
+    <dimen name="navigation_localmusic_margin_bottom">2dip</dimen>
+    <dimen name="navigation_localmusic_vertical_padding">5dip</dimen>
+    <dimen name="navigation_localmusic_horizontal_padding">20dip</dimen>
+    <dimen name="navigation_localentry_height">68dip</dimen>
+    <dimen name="navigation_localentry_margin_bottom">15dip</dimen>
+    <dimen name="navigation_netentry_height">47dip</dimen>
+    <dimen name="navigation_netentry_extend_height">45dip</dimen>
+    <dimen name="navigation_netentry_gap">5dip</dimen>
+    <dimen name="navigation_netentry_margin_bottom">20dip</dimen>
+    <dimen name="navigation_netmusic_finder_margin_top">15dip</dimen>
+    <dimen name="navigation_netentry_down_margin_bottom">15dip</dimen>
+    <dimen name="navigation_extra_channel_paddingBottom">15dip</dimen>
+    <dimen name="navigation_extra_channel_paddingTop">15dip</dimen>
+    <dimen name="navigation_fav_new_tag_margin_top">2dp</dimen>
+    <dimen name="navigation_fav_new_tag_margin_right">5dp</dimen>
+    <dimen name="navigation_fav_new_tag_size">7dp</dimen>
+
+    <!-- 主页更多 -->
+    <dimen name="navigation_more_entry_height">76dip</dimen>
+    <dimen name="navigation_more_entry_extra_height">50dip</dimen>
+
+    <!-- slidingdrawer_playerback 工具条 -->
+    <dimen name="playback_bottom_bar_icon_height">60dip</dimen>
+
+    <!-- 定时音乐 -->
+    <dimen name="dialog_setting_sleepseekbar_text_between_top">12dip</dimen>
+    <dimen name="dialog_setting_sleepseekbar_reserve_width">5dip</dimen>
+    <dimen name="dialog_setting_sleepseekbar_tag_marginbottom">10dip</dimen>
+    <dimen name="dialog_setting_sleepseekbar_tag_textsize">18dip</dimen>
+    <dimen name="sleep_time_seekbar_height">150dp</dimen>
+    <dimen name="music_alarm_head_layout_height">60dp</dimen>
+    <dimen name="music_alarm_item_padding">9dp</dimen>
+    <dimen name="music_alarm_bottom_circle_size">115dp</dimen>
+    <dimen name="music_alarm_bottom_circle_text_size">14dp</dimen>
+    
+     <!-- 新pc传歌 -->
+    <dimen name="pc_song_transfer_button_width">150dp</dimen>
+    <dimen name="pc_song_transfer_view_margin">5dp</dimen>
+    <dimen name="pc_song_transfer_text_button_margin">30dp</dimen>
+    <dimen name="pc_song_transfer_button_button_margin">3dp</dimen>
+    <dimen name="pc_song_transfer_help_top_paddingleft">2dp</dimen>
+
+    <!-- 发现 -->
+    <dimen name="discovery_navibar_heigh">55dp</dimen>
+    <dimen name="discovery_navibar_padding_top">5dp</dimen>
+    <dimen name="discovery_navibar_padding_bottom">5dp</dimen>
+    <dimen name="discovery_navibar_item_height">80dp</dimen>
+    <dimen name="discovery_navibar_item_maring">5dp</dimen>
+    <dimen name="discovery_navibar_item_maring_half">0.5dp</dimen>
+    <dimen name="discovery_navibar_total_height">148dp</dimen>
+    <dimen name="discovery_subscribebar_heigh">30dp</dimen>
+    <dimen name="discovery_subscribebar_margin_left">15dp</dimen>
+    <dimen name="discovery_subscribebar_btn_width">70dp</dimen>
+    <dimen name="discovery_subscribebar_divider_width">1px</dimen>
+    <dimen name="discovery_grid_padding">1dp</dimen>
+    <dimen name="discovery_tips_maring">70dp</dimen>
+    <dimen name="discovery_grid_text_margin">6dp</dimen>
+    <dimen name="discovery_navibar_item_sub_text_padding">22dp</dimen>
+
+    <!-- 歌手 -->
+    <dimen name="singer_type_tab_title_view_height">45dp</dimen>
+    <dimen name="singer_type_tab_title_selected_view_height">4dp</dimen>
+    <dimen name="singer_type_tab_title_divider_height">22dp</dimen>
+    <dimen name="singer_type_tab_title_divider_width">1px</dimen>
+    <dimen name="singer_type_artist_list_item_height">58dp</dimen>
+    <dimen name="singer_type_artist_list_item_padding">6dp</dimen>
+    <dimen name="singer_type_artist_list_text_marginleft">12dp</dimen>
+    <dimen name="singer_type_artist_list_info_margintop">5dp</dimen>
+    <dimen name="singer_type_artist_list_text_size">14.6dp</dimen>
+    <dimen name="singer_type_artist_list_item_divider_height">1px</dimen>
+    <dimen name="singer_type_layout_padding_left_right">8dp</dimen>
+    <dimen name="singer_area_select_item_height">80dp</dimen>
+    <dimen name="singer_area_select_item_width">95dp</dimen>
+    <dimen name="singer_type_select_item_height">41dp</dimen>
+    <dimen name="singer_type_select_item_width">95dp</dimen>
+    <dimen name="singer_type_select_item_text_size">16dp</dimen>
+    <dimen name="singer_area_select_item_text_size">24dp</dimen>
+    <dimen name="singer_type_select_layout_margin_top">10dp</dimen>
+    <dimen name="singer_type_select_layout_margin_botton">8dp</dimen>
+    <dimen name="singer_type_select_diverder_height">1px</dimen>
+    <dimen name="singer_type_select_diverder_margin_top">10dp</dimen>
+    <dimen name="singer_type_select_text_margin_top">18dp</dimen>
+    <dimen name="singer_type_select_layout_padding_left_right">10dp</dimen>
+    <dimen name="singer_type_sort_text_margin_left">19dp</dimen>
+    <dimen name="singer_type_sort_letter_textsize">11dp</dimen>
+    <dimen name="singer_type_sort_content_margin">11dp</dimen>
+    <dimen name="singer_gridview_img_size">66dp</dimen>
+    <dimen name="singer_gridview_text_size">11dp</dimen>
+    <dimen name="singer_gridview_text_margin_top">7dp</dimen>
+    <dimen name="singer_gridview_padding_left">7dp</dimen>
+    <dimen name="singer_gridview_margin_bottom">12dp</dimen>
+    <dimen name="singer_gridview_margin_top">7dp</dimen>
+    <dimen name="singer_gridview_height">190dp</dimen>
+    <dimen name="singer_gridview_horizontal_spacing">4dp</dimen>
+    <dimen name="singer_gridview_vertical_spacing">9dp</dimen>
+    <dimen name="singer_album_img_size">133dp</dimen>
+    <dimen name="singer_album_gridview_horizontal_spacing">17dp</dimen>
+    <dimen name="singer_album_gridview_vertical_spacing">17dp</dimen>
+    <dimen name="singer_album_gridview_padding_left_right">20dp</dimen>
+    <dimen name="singer_album_gridview_half_padding_left_right">10dp</dimen>
+    <dimen name="singer_album_gridview_margintop">13dp</dimen>
+    <dimen name="singer_mv_img_width">133dp</dimen>
+    <dimen name="singer_mv_img_height">100dp</dimen>
+    <dimen name="mv_grid_text_margin">5dp</dimen>
+    <dimen name="singer_gridview_title_size">12dp</dimen>
+    <dimen name="singer_gridview_name_size">10dp</dimen>
+    <dimen name="singer_gridview_text_to_pic">10dp</dimen>
+    <dimen name="singer_gridview_text_to_text">6dp</dimen>
+    <dimen name="singer_subscribe_text_size">15dp</dimen>
+    <dimen name="singer_subscribe_text_to_bottom">54dp</dimen>
+    <dimen name="singer_subscribe_title_btn_width">88dp</dimen>
+    <dimen name="singer_subscribe_title_layout_heigth">39dp</dimen>
+    <dimen name="singer_follow_text_larger">14dp</dimen>
+    <dimen name="singer_follow_text_mid">12dp</dimen>
+    <dimen name="singer_follow_text_left_padding">19dp</dimen>
+    <dimen name="singer_follow_text_right_padding">15dp</dimen>
+    <dimen name="singer_follow_diverder_height">21dp</dimen>
+    <dimen name="singer_type_follow_gridview_item_design_size">107dp</dimen>
+    <dimen name="singer_info_dialog_width">320dp</dimen>
+    <dimen name="singer_info_dialog_img_height">250dp</dimen>
+    <dimen name="singer_info_dialog_text_height">39dp</dimen>
+    <dimen name="singer_info_dialog_text_left">17dp</dimen>
+    <dimen name="singer_info_dialog_detail_left">21dp</dimen>
+    <dimen name="singer_info_dialog_detail_minheight">100dp</dimen>
+    <dimen name="singer_info_dialog_detail_top">19dp</dimen>
+    <dimen name="singer_detail_song_empty_height">285dp</dimen>
+    <dimen name="singer_detail_albummv_empty_height">240dp</dimen>
+    <dimen name="singer_detail_head_img_height">240dp</dimen>
+    <dimen name="singer_detail_head_limitheight_height">150dp</dimen>
+    <dimen name="singer_nofollow_image_top">50dp</dimen>
+    <dimen name="singer_nofollow_text_top">28dp</dimen>
+    <dimen name="singer_change_color_limmit">90dp</dimen>
+    <dimen name="singer_name_textsize">12dp</dimen>
+    <dimen name="singer_noresult_margintop">18dp</dimen>
+    <dimen name="singer_type_head_size">52dp</dimen>
+    <dimen name="album_default_frame_size">62dp</dimen>
+    <dimen name="kg_singer_area_select_item_height">65dip</dimen>
+    <dimen name="play_singer_radio_text_size">11dp</dimen>
+    <dimen name="singer_item_padding_top">4dp</dimen>
+    <dimen name="singer_item_padding_left">12dp</dimen>
+    <dimen name="singer_item_padding_center_margintop">4dp</dimen>
+    <dimen name="singer_star_interview_head_width">105dp</dimen>
+    <dimen name="singer_star_interview_head_height">69dp</dimen>
+    <dimen name="singer_detail_song_sort_item_text_margin">5dp</dimen>
+    <!-- end of 歌手 -->
+
+
+    <!-- 歌单分类 -->
+    <dimen name="bills_classfication_banner_height">135dip</dimen>
+    <dimen name="bills_classfication_banner_container_height">160dip</dimen>
+    <dimen name="bills_classfication_banner_indicator_container_height">25dip</dimen>
+    <dimen name="classfication_speciallist_topimg_height">130dip</dimen>
+    <dimen name="classfication_speciallist_title_margin_left">30dip</dimen>
+    <dimen name="classfication_speciallist_title_margin_right">20dip</dimen>
+    <dimen name="bills_detail_slideheader_bottombar_height">80dip</dimen>
+    <dimen name="bills_detail_slideheader_btn_width">70dip</dimen>
+    <dimen name="bills_classfication_banner_margin_bottom">2dp</dimen>
+    <dimen name="bills_info_detail_margin_left">25dp</dimen>
+    <dimen name="bills_info_detail_padding">20dp</dimen>
+    <dimen name="bills_info_detail_text_margin">17dp</dimen>
+    <!-- 排行V3 -->
+    <dimen name="ranking_list_head_view_height">120dip</dimen>
+    <dimen name="ranking_list_subscribe_padding_right">10dip</dimen>
+    <dimen name="ranking_list_subscribe_padding_bottom">2dip</dimen>
+    <dimen name="ranking_list_time_stmp_maring_bottom">10dip</dimen>
+    <dimen name="ranking_phase_text">14dp</dimen>
+    <!-- more模块 -->
+    <dimen name="more_fragment_grid_item_text_size">15dp</dimen>
+    <dimen name="more_fragment_grid_item_height">53dp</dimen>
+    <dimen name="more_fragment_grid_item_content_width">130dp</dimen>
+    <dimen name="more_fragment_header_view_setting_title_size">25dp</dimen>
+    <dimen name="more_fragment_header_view_setting_title_padding_left">15dp</dimen>
+    <!-- 猜你喜欢 -->
+    <dimen name="guess_favourite_btn_maring">69dp</dimen>
+    <dimen name="unsubscribe_dialog_color_height">5dp</dimen>
+    <dimen name="unsubscribe_dialog_height">112dp</dimen>
+    <dimen name="unsubscribe_dialog_width">240dp</dimen>
+    <dimen name="unsubscribe_dialog_item_height">60dp</dimen>
+    <dimen name="unsubscribe_dialog_action_height">53dp</dimen>
+    <dimen name="unsubscribe_dialog_paddingleft">18dp</dimen>
+    <dimen name="unsubscribe_dialog_titlesize">18dp</dimen>
+    <dimen name="unsubscribe_dialog_action_size">15dp</dimen>
+    <dimen name="unsubscribe_dialog_radius">2dp</dimen>
+    <dimen name="unsubscribe_dialog_action_marginleft">10dp</dimen>
+    <dimen name="guess_you_like_text_size_big">20dp</dimen>
+    <dimen name="guess_you_like_text_size_small">12dp</dimen>
+
+    <!-- 用户信息 -->
+    <dimen name="user_info_item_avatar_size">70dip</dimen>
+    <dimen name="user_info_item_height">50dip</dimen>
+    <dimen name="user_info_item_margin_top">7dip</dimen>
+    <dimen name="user_info_item_margin_right">20dip</dimen>
+    <dimen name="user_info_item_padding_left">11dip</dimen>
+    <dimen name="user_base_info_edit_item_padding_left">7dip</dimen>
+    <dimen name="user_info_edit_item_height">42dip</dimen>
+    <dimen name="user_info_edit_item_signature_height">90dip</dimen>
+    <dimen name="user_info_edit_item_taglist_height">90dip</dimen>
+    <dimen name="kg_user_info_avatar_layout_bg">210dip</dimen>
+    <!-- LBS -->
+    <dimen name="lbs_user_head_size">60dp</dimen>
+    <dimen name="lbs_user_head_margin_left">7dp</dimen>
+    <dimen name="lbs_user_item_padding_top">7dp</dimen>
+    <dimen name="lbs_user_image_margin_right">15dp</dimen>
+    <dimen name="lbs_user_fav_count_margin_top">10dp</dimen>
+    <dimen name="lbs_user_signiture_margin_top">8dp</dimen>
+    <dimen name="lbs_user_distance_to_update">8dp</dimen>
+    <dimen name="lbs_user_select_tab_height">37dp</dimen>
+    <dimen name="lbs_select_tab_height">37dp</dimen>
+
+    <!-- 歌曲识别 -->
+    <dimen name="identify_button_width">100dp</dimen>
+    <dimen name="identify_button_height">40dp</dimen>
+    <dimen name="identify_singer_width">240dip</dimen>
+    <dimen name="identify_singer_top">20dip</dimen>
+    <dimen name="identify_right_bottom">10dip</dimen>
+    <dimen name="identify_middle_bar_height">25dip</dimen>
+    <dimen name="identify_bottom_textsize">11dip</dimen>
+
+    <!-- 新歌首发 -->
+    <dimen name="new_song_publish_nav_height">39dp</dimen>
+    <dimen name="new_song_publish_nav_album_size">120dp</dimen>
+    <dimen name="new_song_publish_nav_selected_view_height">4dp</dimen>
+
+    <!-- 新碟上架 -->
+    <dimen name="new_album_publish_grid_margin_left_right">10dip</dimen>
+
+    <!-- 音乐空间 -->
+    <dimen name="music_zone_head_second_page_margin_right">66dp</dimen>
+    <dimen name="music_zone_head_second_page_margin_left">20dp</dimen>
+    <dimen name="music_zone_head_second_page_tag_lebel_width">52dp</dimen>
+    <dimen name="music_zone_head_second_page_seondtags_insmargin_left">100dp</dimen>
+    <dimen name="music_zone_head_second_page_margin_top">12dp</dimen>
+    <dimen name="music_zone_head_second_page_singature_margin_top">25dp</dimen>
+    <dimen name="music_zone_head_second_page_tag_margin_left">5dp</dimen>
+    <dimen name="music_zone_head_tag_padding">4dp</dimen>
+    <dimen name="music_zone_group_item_height">30dp</dimen>
+    <dimen name="music_zone_cities_modify_dialog_width">300dp</dimen>
+    <dimen name="music_zone_cities_modify_dialog_height">350dip</dimen>
+    <dimen name="music_zone_cities_modify_dialog_province_width">150dp</dimen>
+    <dimen name="music_zone_cities_modify_dialog_city_width">150dp</dimen>
+    <dimen name="music_zone_cities_modify_dialog_item_height">50dp</dimen>
+    <dimen name="music_zone_cities_modify_dialog_listview_height">250dp</dimen>
+    <dimen name="music_zone_cities_modify_dialog_listview_divider_height">1dp</dimen>
+    <dimen name="music_zone_cities_modify_dialog_listview_divider_vertical_margin">100dp</dimen>
+    <dimen name="music_zone_cities_modify_dialog_listview_divider_horizontal_margin">20dp</dimen>
+    <dimen name="music_zone_sex_icon_margin_left">-18dip</dimen>
+    <dimen name="visitor_icon_size">40dp</dimen>
+    <dimen name="user_nick_name_text_maxwidth">110dip</dimen>
+    <dimen name="user_info_edit_item_width">150dip</dimen>
+    <dimen name="user_info_add_custom_tag_width">80dip</dimen>
+    <dimen name="user_info_img_show_big_avatar_size">250dip</dimen>
+
+    <!-- 电台 -->
+    <dimen name="radio_list_nav_height">50dp</dimen>
+    <dimen name="radio_list_nav_padding_top_bottom">10dp</dimen>
+    <dimen name="radio_list_nav_padding_left_right">3dp</dimen>
+    <dimen name="radio_list_nav_item_height">24dp</dimen>
+    <dimen name="radio_list_nav_item_width">60dp</dimen>
+    <dimen name="radio_list_nav_item_padding">8dp</dimen>
+    <dimen name="radio_dialog_radius">3dp</dimen>
+    <dimen name="radio_list_item_height">85dp</dimen>
+
+    <!-- 我的歌单 -->
+    <dimen name="create_new_could_playlist_width">130dip</dimen>
+    <dimen name="create_new_could_playlist_height">45dip</dimen>
+    <dimen name="playlist_group_text_size">15dip</dimen>
+    <dimen name="playlist_icon_width_height">76dip</dimen>
+    <dimen name="fav_playlist_user_image_height">50dip</dimen>
+    <dimen name="playlist_edit_pix_height">80dip</dimen>
+    <dimen name="playlist_head_user_pix">50dip</dimen>
+    <dimen name="playlist_content_height">50dip</dimen>
+    <dimen name="playlist_fav_head_user_pix">35dip</dimen>
+    <dimen name="playlist_fav_layout_height">70dip</dimen>
+    <dimen name="playlist_fav_user_layout_height">70dip</dimen>
+    <dimen name="playlist_comment_editview_height">50dip</dimen>
+    <dimen name="downlaodlist_common_bar_header_height">30dip</dimen>
+    <dimen name="my_comment_header_height">48dip</dimen>
+    <dimen name="playlist_item_play_button_padding">28dp</dimen>
+
+    <!-- 下载管理 -->
+    <dimen name="download_state_width">80dip</dimen>
+    <dimen name="download_intro_textsize">12dp</dimen>
+    <dimen name="download_intro_width">80dip</dimen>
+
+    <!-- 批量操作栏 -->
+    <dimen name="common_bar_header_bg_height">45dip</dimen>
+    <!-- 用户信息修改 -->
+    <dimen name="user_info_tag_edit_item_selected_icon_size">20dp</dimen>
+    <dimen name="user_info_tag_edit_item_tagname_height">45dp</dimen>
+    <dimen name="user_info_tag_edit_item_tagname_margin_right">20dp</dimen>
+    <dimen name="user_info_tag_edit_item_height">70dp</dimen>
+    <dimen name="user_info_tag_edit_item_margin_top">15dp</dimen>
+    <dimen name="user_info_tag_edit_group_item_height">55dp</dimen>
+    <dimen name="user_info_tag_name_size">11dp</dimen>
+
+    <!-- 更多 -->
+    <dimen name="music_sleep_setting_tips_width">255dp</dimen>
+    <dimen name="music_sleep_setting_tips_height">25dp</dimen>
+
+    <!-- 个人信息 -->
+    <dimen name="user_nick_name_text_maxWidth">110dip</dimen>
+    <dimen name="btn_login_out_height">55dip</dimen>
+    <dimen name="btn_login_out_width">280dip</dimen>
+    <dimen name="love_text_edit_height">35dip</dimen>
+    <dimen name="love_btn_register_by_phone_width">100dip</dimen>
+    <!-- 新手引导 -->
+    <!-- player_playback_bg_height+player_seeker_bg_height -->
+    <dimen name="new_user_guide_full_liric_btn_menu_container_height">190dip</dimen>
+    <dimen name="new_user_guide_sliding_hand_move_distant">100dip</dimen>
+    <dimen name="new_user_guide_singerportray_height">220dip</dimen>
+
+    <!-- 定时音乐 -->
+    <dimen name="music_alarm_edit_wheel_margin_left">10dip</dimen>
+    <dimen name="music_alarm_edit_wheel_margin_right">10dip</dimen>
+    <dimen name="music_alarm_edit_wheel_width">80dip</dimen>
+    <dimen name="music_alarm_edit_wheel_item_divider_height">1dip</dimen>
+    <dimen name="music_alarm_edit_wheel_item_height">50dip</dimen>
+    <dimen name="music_alarm_edit_wheel_height">150dip</dimen>
+    <dimen name="music_alarm_repeat_item_btn_size">38dp</dimen>
+
+    <!--
+    彩铃专区
+    <dimen name="ringtonesarea_common_btn_size">35dip</dimen>
+    <dimen name="ringtonesarea_btn_loading_img_size">25dip</dimen>
+    <dimen name="ringtonesarea_use_ringtone_btn_width">60dp</dimen>
+    <dimen name="ringtonesarea_list_item_singername_max_width">100dp</dimen>
+    <dimen name="ringtonesarea_header_count_text_height">50dp</dimen>
+    <dimen name="ringtonesarea_billboard_img_size">85dip</dimen>
+    <dimen name="ringtonesarea_billboard_list_item_height">90dip</dimen>
+    <dimen name="ringtonesarea_topic_list_item_height">100dip</dimen>
+    <dimen name="ringtonesarea_topic_header_height">120dip</dimen>
+
+
+    -->
+    <!-- 联通包月 -->
+    <dimen name="unicom_button_corner">15dp</dimen>
+
+    <!-- DLNA -->
+    <dimen name="dlna_setting_activity_view_padding_left_right">8dip</dimen>
+    <dimen name="dlna_setting_activity_view_minheight">52dip</dimen>
+    <dimen name="dlna_setting_activity_setting_view_hight">56dip</dimen>
+    <dimen name="dlna_setting_activity_text_marginleft">8dip</dimen>
+    <dimen name="dlna_setting_activity_text_margin_to_other">14dip</dimen>
+    <dimen name="dlna_setting_activity_text_margin_to_text">5dip</dimen>
+    <dimen name="dlna_setting_activity_remarktext_margin_top">17dip</dimen>
+    <dimen name="dlna_select_dialog_icon_margin">8dip</dimen>
+    <dimen name="dlna_select_dialog_item_height">60dip</dimen>
+    <dimen name="kugoubox_setting_dialog_layout_padding">15dip</dimen>
+    <dimen name="kugoubox_setting_dialog_texttitle_width">80dip</dimen>
+
+    <!-- 导航应用 -->
+    <dimen name="navigation_applist_btn_width">138dp</dimen>
+    <dimen name="navigation_applist_btn_height">45dp</dimen>
+    <!-- 一键强音 -->
+    <dimen name="btn_onekey_increase_volumn_width">51dip</dimen>
+    <dimen name="btn_onekey_increase_volumn_height">20dip</dimen>
+    <dimen name="volumn_window_height">50dip</dimen>
+
+    <!-- 通知栏按钮 -->
+    <dimen name="statusbar_btn_margin">0dp</dimen>
+
+    <!-- dialoh -->
+    <dimen name="common_dialog_top_line_height">5dip</dimen>
+    <dimen name="keybord_height">216dip</dimen>
+
+    <!-- 导航首页 -->
+    <dimen name="kg_navigation_netentry_vertical_padding">5dip</dimen>
+    <dimen name="kg_navigation_netentry_horizontal_padding">20dip</dimen>
+
+    <!-- 乐库7.0 -->
+    <dimen name="kg_discovery_nav_item_height">44dp</dimen>
+    <dimen name="kg_discovery_nav_item_padding">8dp</dimen>
+
+    <!-- 乐库7.0 推荐 -->
+    <dimen name="kg_discovery_rec_banner_height">156dp</dimen>
+    <dimen name="kg_discovery_rec_banner_indicator_height">24dp</dimen>
+    <dimen name="kg_discovery_rec_sub_banner_height">75dp</dimen>
+    <dimen name="kg_discovery_rec_top_rec_padding">5dp</dimen>
+    <dimen name="kg_discovery_rec_list_header_height">50dp</dimen>
+    <dimen name="kg_discovery_rec_list_header_text_height">24dp</dimen>
+    <dimen name="kg_discovery_rec_list_item_height">70dp</dimen>
+    <dimen name="kg_discovery_rec_list_item_padding">6dp</dimen>
+    <dimen name="kg_discovery_rec_list_item_song_img_width">60dp</dimen>
+    <dimen name="kg_discovery_rec_list_item_song_menu_toggle_width">35dp</dimen>
+    <dimen name="kg_discovery_rec_list_item_playlist_height">100dp</dimen>
+    <dimen name="kg_discovery_rec_list_item_playlist_img_height">88dp</dimen>
+    <dimen name="kg_discovery_rec_list_item_playlist_img_playbtn_measure">26dip</dimen>
+    <dimen name="kg_discovery_rec_list_item_playlist_play_btn_height">26dp</dimen>
+    <dimen name="kg_discovery_rec_list_item_album_height">114dp</dimen>
+    <dimen name="kg_discovery_rec_album_item_horizontal_spacing">14dp</dimen>
+    <dimen name="kg_discovery_rec_album_item_vertical_spacing">20dp</dimen>
+    <dimen name="kg_discovery_rec_drawable_padding">7dp</dimen>
+    <dimen name="kg_discovery_special_category_header_height">35dp</dimen>
+    <dimen name="kg_discovery_special_category_item_height">43dp</dimen>
+    <dimen name="kg_discovery_special_category_header_fontsize">18dp</dimen>
+    <dimen name="kg_discovery_special_category_item_fontsize">16dp</dimen>
+    <dimen name="kg_audio_item_hq_icon_width">34.7dip</dimen>
+    <dimen name="kg_audio_item_hq_icon_height">13.3dip</dimen>
+    <dimen name="kg_audio_item_mv_icon_width">34.7dip</dimen>
+    <dimen name="kg_audio_item_mv_icon_height">13.3dip</dimen>
+    <dimen name="kg_common_list_bar_icon_mark_margin">22dip</dimen>
+    <dimen name="kg_rec_subbanner_height">60dip</dimen>
+    
+    <!-- 7.0我的评论 -->
+    <dimen name="kg_my_comment_header_height">65dp</dimen>
+
+    <!-- 7.0推荐-歌单 -->
+    <dimen name="kg_discovery_special_item_measure">50dip</dimen>
+
+    <!-- 关于 -->
+    <dimen name="about_top_margin">28dp</dimen>
+    <dimen name="about_items_margin">7dp</dimen>
+    <dimen name="about_textview_height">35dp</dimen>
+
+    <!-- 用户反馈 -->
+    <dimen name="feedback_activity_content_height">90dip</dimen>
+    <dimen name="feedback_activity_qq_margintop">15dip</dimen>
+    <dimen name="feedback_activity_bottom_image_max">50dp</dimen>
+    <dimen name="feedback_type_btn_height">33dip</dimen>
+    <dimen name="new_feedback_activity_content_height">85dp</dimen>
+    <dimen name="feedback_activity_layout_marginleft">13dp</dimen>
+    <dimen name="feedback_activity_layout_marginright">10dp</dimen>
+
+    <!-- unicom dialog -->
+    <dimen name="kg_unicom_menu_dialog_line_height">3dip</dimen>
+    <dimen name="kg_unicom_text_margin">20dip</dimen>
+
+    <!-- pull to refresh -->
+    <dimen name="kg_pulltorefresh_indicator_right_padding">10dp</dimen>
+    <dimen name="kg_pulltorefresh_indicator_corner_radius">12dp</dimen>
+    <dimen name="kg_pulltorefresh_indicator_internal_padding">4dp</dimen>
+    <dimen name="kg_pulltorefresh_header_footer_left_right_padding">24dp</dimen>
+    <dimen name="kg_pulltorefresh_header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="kg_transfer_qr_code_width">250dip</dimen>
+
+    <!-- 听歌识曲 -->
+    <dimen name="kg_identify_pivot_size">20dp</dimen>
+    <dimen name="kg_identify_pivot_margin">30dp</dimen>
+    <dimen name="kg_identify_wave_margin">40dp</dimen>
+    <dimen name="kg_identify_small_btn_size">65dp</dimen>
+    <dimen name="kg_identify_big_btn_size">130dp</dimen>
+    <dimen name="kg_identify_choice_btn_height">65dp</dimen>
+    <dimen name="kg_identify_play_btn_size">40dp</dimen>
+    <dimen name="kg_identify_padding_Size">18dip</dimen>
+    <dimen name="kg_identify_btn_padding_Size">7dip</dimen>
+    <dimen name="kg_identify_btn_paddingbottom_Size">23dip</dimen>    
+   
+    <!-- 音乐收费 -->
+    <dimen name="kg_music_fees_custom_padding">5dp</dimen>
+    <dimen name="kg_music_fees_custom_margin">5dp</dimen>
+    <dimen name="kg_music_fees_single_cart_height">150dp</dimen>
+    <dimen name="kg_music_fees_albume_image_height">200dp</dimen>
+    <dimen name="kg_music_fees_albume_info_outer_padding">20dp</dimen>
+    <dimen name="kg_music_fees_albume_thumbnail_height">48dp</dimen>
+    <dimen name="kg_music_fees_albume_thumbnail_width">48dp</dimen>
+    <dimen name="kg_music_fees_myassets_text_size">13dip</dimen>
+    <dimen name="kg_music_fees_play_button_height">62dip</dimen>
+
+    <dimen name="kg_guide_music_hunter_img_left_margin">4dp</dimen>
+	<dimen name="kg_guide_music_hunter_img_top_margin">56dp</dimen>
+    
+    <!-- 设置 -->
+    <dimen name="st_clear_cached_file_item_height">50dp</dimen>
+    
+
+    <!-- V单 -->
+    <dimen name="discovery_mv_banner_height">126dp</dimen>
+   	<dimen name="discovery_mv_banner_margin">10dp</dimen>
+   	<dimen name="discovery_mv_play_btn_margin">10dp</dimen>
+   	<dimen name="discovery_mv_title_text_size">16dp</dimen>
+   	<dimen name="discovery_mv_desc_text_size">11dp</dimen>
+   	<dimen name="mv_detail_item_img_height">79dp</dimen>
+   	<dimen name="mv_detail_item_img_width">141dp</dimen>
+   	<dimen name="mv_detail_title_text_size">16dp</dimen>
+   	<dimen name="mv_detail_desc_text_size">12dp</dimen>
+   	<dimen name="mv_detail_desc_vertical_padding">11dp</dimen>
+   	<dimen name="mv_detail_desc_horizontal_padding">14dp</dimen>
+   	<dimen name="mv_detail_banner_height">193dp</dimen>
+
+<!-- 歌曲下载选择框最小高度 -->
+    <dimen name="music_download_list_item_height">52dip</dimen>
+     
+     <dimen name="kg_mv_delete_btn_height">20dip</dimen>
+     <dimen name="kg_mv_delete_btn_paddingLeftAndRight">15dip</dimen>
+     <dimen name="kg_mv_delete_btn_textSize">12dip</dimen>
+     <dimen name="kg_mv_gotohomepage_btn_textSize">16dip</dimen>
+     <dimen name="kg_mv_gotohomepage_btn_paddingLeftAndRight">22dip</dimen>
+     <dimen name="kg_mv_gotohomepage_btn_margintop">43dip</dimen>
+     <dimen name="kg_dm_mv_list_empty_textSize">13dip</dimen>
+    <!--  listView 空白header的高度 -->
+     <dimen name="my_local_music_blank_header_height">49dip</dimen>
+     <dimen name="kg_local_music_quick_play_height">25dip</dimen>
+     <dimen name="kg_local_music_quick_play_padding">2dip</dimen>
+     
+     <dimen name="kg_downloaded_accompany_item_menu_height">65dip</dimen>
+    <!-- player queue -->
+    <dimen name="player_queue_title_padding_left">17dip</dimen>
+    <dimen name="unicom_sub_ok_height">180dip</dimen>
+	<dimen name="unicom_sub_ok_icon_margintop">30dip</dimen>
+	<dimen name="unicom_sub_ok_sub_status_margintop">9dip</dimen>
+	<dimen name="unicom_sub_ok_sub_status_textsize">15dip</dimen>
+	<dimen name="unicom_sub_ok_valid_through_margintop">6dip</dimen>
+	<dimen name="unicom_sub_ok_valid_through_textsize">13dip</dimen>
+	<dimen name="unicom_sub_ok_open_service_padding_left">30dip</dimen>
+	<dimen name="unicom_sub_ok_open_service_padding_top">8dip</dimen>
+	<dimen name="unicom_sub_ok_open_service_text_size">18dip</dimen>
+	<dimen name="unicom_sub_ok_open_service_margintop">18dip</dimen>
+	<dimen name="unicom_sub_ok_sub_time_margintop">6dip</dimen>
+	<dimen name="unicom_sub_ok_sub_time_textsize">13dip</dimen>
+	<dimen name="unicom_sub_ok_sub_save_margintop">8dip</dimen>
+	<dimen name="unicom_sub_ok_sub_save_marginleft">8dip</dimen>
+	<dimen name="unicom_sub_ok_sub_save_text_marginleft">8dip</dimen>
+	<dimen name="unicom_sub_ok_sub_save_text_margintop">8dip</dimen>
+	<dimen name="unicom_sub_ok_sub_save_text_text_size">14dip</dimen>
+	<dimen name="unicom_sub_ok_sub_notice_margintop">8dip</dimen>
+	<dimen name="unicom_sub_ok_sub_notice_marginleft">8dip</dimen>
+	<dimen name="unicom_sub_ok_sub_notice_text_size">12dip</dimen>
+	<dimen name="unicom_sub_ok_sub_more_text_size">11dip</dimen>
+	<dimen name="unicom_sub_ok_sub_more_text_margin">8dip</dimen>
+	<dimen name="unicom_sub_ok_sub_more_layout_margin_top">33dip</dimen>
+
+    <dimen name="kg_discovery_rec_list_item_song_height">70dp</dimen>
+    <dimen name="kg_discovery_rec_list_item_song_padding">6dp</dimen>
+    <dimen name="splash_bottom_view_height">50dip</dimen>
+     <!-- 乐库歌手 -->
+    <dimen name="kg_discovery_singer_margin_horizontal">10dp</dimen>
+    <dimen name="kg_discovery_singer_search_hint_item_padding">20dp</dimen>
+    <dimen name="kg_discovery_singer_text_size_large">16dp</dimen>
+    <dimen name="kg_discovery_singer_text_size_small">12dp</dimen>
+    <dimen name="kg_discovery_singer_category_height">43dp</dimen>
+    <dimen name="kg_discovery_singer_group_divider_height">10dp</dimen>
+    <dimen name="kg_discovery_singer_img_size">61dp</dimen>
+    <dimen name="kg_discovery_singer_img_margin">9dp</dimen>
+    
+	 <!-- 更多版本间距 -->
+    <dimen name="kg_result_list_item_more_song_height">35dp</dimen>
+    <dimen name="kg_result_list_item_more_parent_height">100dp</dimen>
+	
+</resources>

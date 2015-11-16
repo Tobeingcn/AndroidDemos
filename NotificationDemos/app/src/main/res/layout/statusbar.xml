@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/statusbar_artist_image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/notification_default_icon" />
+
+        <ImageView
+            android:id="@+id/kugou_logo"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_margin="2dp"
+            android:layout_alignBottom="@id/statusbar_artist_image"
+            android:layout_alignRight="@id/statusbar_artist_image"
+            android:src="@drawable/statusbar_kugou_logo_big" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <!-- 30dp -->
+
+        <ImageButton
+            android:id="@+id/statusbar_super_content_close_btn"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:layout_marginRight="3dp"
+            android:scaleType="fitCenter"
+            android:background="@color/transparent"
+            android:src="@drawable/kg_btn_noti_close" />
+
+        <ImageButton
+            android:id="@+id/statusbar_small_lyric_btn"
+            android:layout_width="36dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/statusbar_super_content_close_btn"
+            android:scaleType="fitCenter"
+            android:background="@color/transparent"
+            android:src="@drawable/kg_btn_noti_lyr_close"/>
+
+
+        <ImageButton
+            android:id="@+id/statusbar_super_content_next_btn"
+            android:layout_width="36dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/statusbar_small_lyric_btn"
+            android:scaleType="fitCenter"
+            android:background="@color/transparent"
+            android:src="@drawable/kg_btn_noti_next" />
+        
+
+        <ImageButton
+            android:id="@+id/statusbar_super_content_pause_or_play"
+            android:layout_width="36dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/statusbar_super_content_next_btn"
+            android:scaleType="fitCenter"
+            android:background="@color/transparent"
+            android:src="@drawable/kg_btn_noti_pause" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@+id/statusbar_super_content_pause_or_play"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/statusbar_song_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:layout_marginBottom="5dp"
+                android:scrollHorizontally="true"
+                android:text="酷狗音乐" />
+
+            <TextView
+                android:id="@+id/statusbar_singer_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:text="歌手" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
