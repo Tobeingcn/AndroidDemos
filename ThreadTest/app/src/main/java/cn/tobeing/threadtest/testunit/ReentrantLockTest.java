@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ReentrantLockTest extends AbstractTestUnit{
 
     public ReentrantLockTest(){
-        super("ReentrantLockTest");
+        super("递归死锁测试");
     }
 
     @Override
