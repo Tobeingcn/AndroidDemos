@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.tobeing.threadtest.testunit.AbstractTestUnit;
+import cn.tobeing.threadtest.testunit.FinalParaTestUnit;
 import cn.tobeing.threadtest.testunit.GuantityRunningThreadUnit;
 import cn.tobeing.threadtest.testunit.GuantityThreadUnit;
 import cn.tobeing.threadtest.testunit.RecursiveLockTest;
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private void initView(){
         lvTestUnits=(ListView)findViewById(R.id.lvTestUnits);
         abstractTestUnits=new ArrayList<>();
+        abstractTestUnits.add(new FinalParaTestUnit());
         abstractTestUnits.add(new RecursiveLockTest());
         abstractTestUnits.add(new ResultPrint());
         abstractTestUnits.add(new ThreadPriorityTest());
