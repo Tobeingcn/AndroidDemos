@@ -9,7 +9,9 @@ import android.widget.TextView;
 import java.util.UUID;
 
 public class MainActivity extends AppCompatActivity {
-
+    static {
+        System.loadLibrary("survey_util");
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,4 +27,5 @@ public class MainActivity extends AppCompatActivity {
             }
         },3000);
     }
+    public native String getHello();
 }
